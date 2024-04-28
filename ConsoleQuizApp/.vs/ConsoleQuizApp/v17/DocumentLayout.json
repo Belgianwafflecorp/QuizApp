@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\ConsoleQuizApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DA632A-4F10-4F72-97C6-1BCA5273A7E8}|ConsoleQuizApp.csproj|c:\\users\\admin\\desktop\\github repos\\quizapp\\consolequizapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DA632A-4F10-4F72-97C6-1BCA5273A7E8}|ConsoleQuizApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D362ED-812D-43AA-B0AE-A37FA4902A7C}|..\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj|c:\\users\\admin\\desktop\\github repos\\quizapp\\questionnairelibrary\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D362ED-812D-43AA-B0AE-A37FA4902A7C}|..\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj|c:\\users\\admin\\desktop\\github repos\\quizapp\\questionnairelibrary\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE68D2C5-02DF-4758-8F39-09D48D5D5054}|..\\WpfQuestionnaire\\WpfQuestionnaire.csproj|c:\\users\\admin\\desktop\\github repos\\quizapp\\wpfquestionnaire\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C29DE38E-ADBE-419C-82C6-C47C139C1B6C}|..\\ScoreboardLibrary\\ScoreboardLibrary.csproj|c:\\users\\admin\\desktop\\github repos\\quizapp\\scoreboardlibrary\\playerscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE68D2C5-02DF-4758-8F39-09D48D5D5054}|..\\WpfQuestionnaire\\WpfQuestionnaire.csproj|c:\\users\\admin\\desktop\\github repos\\quizapp\\wpfquestionnaire\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C29DE38E-ADBE-419C-82C6-C47C139C1B6C}|..\\ScoreboardLibrary\\ScoreboardLibrary.csproj|c:\\users\\admin\\desktop\\github repos\\quizapp\\scoreboardlibrary\\scoreboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ScoreBoard.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\ScoreboardLibrary\\ScoreBoard.cs",
+              "RelativeDocumentMoniker": "..\\ScoreboardLibrary\\ScoreBoard.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\ScoreboardLibrary\\ScoreBoard.cs",
+              "RelativeToolTip": "..\\ScoreboardLibrary\\ScoreBoard.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T10:53:58.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerScore.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\ScoreboardLibrary\\PlayerScore.cs",
+              "RelativeDocumentMoniker": "..\\ScoreboardLibrary\\PlayerScore.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\ScoreboardLibrary\\PlayerScore.cs",
+              "RelativeToolTip": "..\\ScoreboardLibrary\\PlayerScore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T10:53:39.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\WpfQuestionnaire\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "..\\WpfQuestionnaire\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\WpfQuestionnaire\\MainWindow.xaml",
+              "RelativeToolTip": "..\\WpfQuestionnaire\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-28T10:51:53.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\WpfQuestionnaire\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\WpfQuestionnaire\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\WpfQuestionnaire\\MainWindow.xaml.cs",
+              "RelativeToolTip": "..\\WpfQuestionnaire\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T10:51:53.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\QuestionnaireLibrary\\Question.cs",
+              "RelativeDocumentMoniker": "..\\QuestionnaireLibrary\\Question.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\QuestionnaireLibrary\\Question.cs",
+              "RelativeToolTip": "..\\QuestionnaireLibrary\\Question.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T10:41:03.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Answer.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\QuestionnaireLibrary\\Answer.cs",
+              "RelativeDocumentMoniker": "..\\QuestionnaireLibrary\\Answer.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\QuestionnaireLibrary\\Answer.cs",
+              "RelativeToolTip": "..\\QuestionnaireLibrary\\Answer.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T10:40:49.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\ConsoleQuizApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\ConsoleQuizApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T10:37:36.464Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
