@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ScoreboardLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c732e45e500d40a2e564d508a0f53c8f94de931")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+885b5108c2f391e2535397a02e96a3287f43b0b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ScoreboardLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ScoreboardLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

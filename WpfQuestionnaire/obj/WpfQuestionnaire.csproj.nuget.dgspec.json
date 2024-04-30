@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\WpfQuestionnaire\\WpfQuestionnaire.csproj": {}
+    "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\WpfQuestionnaire\\WpfQuestionnaire.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\WpfQuestionnaire\\WpfQuestionnaire.csproj": {
+    "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\WpfQuestionnaire\\WpfQuestionnaire.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\WpfQuestionnaire\\WpfQuestionnaire.csproj",
+        "projectUniqueName": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\WpfQuestionnaire\\WpfQuestionnaire.csproj",
         "projectName": "WpfQuestionnaire",
-        "projectPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\WpfQuestionnaire\\WpfQuestionnaire.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\WpfQuestionnaire\\obj\\",
+        "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\WpfQuestionnaire\\WpfQuestionnaire.csproj",
+        "packagesPath": "C:\\Users\\domie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\WpfQuestionnaire\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\domie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -11,8 +11,19 @@ namespace QuestionnaireLibrary
 
         private List<Question> possibleAnswer;
 
-        // + <<get/set>> Text: string
+        // getters and setters
+        public string Text { get; set; }
+
+        public string ImageUrl { get; set; }
         
 
+        
+
+        
+
+        public void AddPossibleAnswer(Answer answer)
+        {
+            possibleAnswer.Add(answer);
+        }
     }
 }

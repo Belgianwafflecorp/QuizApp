@@ -9,26 +9,18 @@ namespace QuestionnaireLibrary
     internal class Answer
     {
 
-        /*
-        + Text : string 
-        + IsCorrect : bool
-
-        + Answer(text: string, IsCorrect: bool)
-        + ToString() : string
-        */
-
         public string text = null;
         public bool isCorrect = false;
 
         public Answer(string text, bool isCorrect)
         {
-            this.text = Text;
-            this.isCorrect = IsCorrect;
+            this.text = text;
+            this.isCorrect = isCorrect;
         }
 
         public override string ToString()
         {
-            return Text + "is " + IsCorrect;
+            return text + "is " +isCorrect;
         }
     }
 }
