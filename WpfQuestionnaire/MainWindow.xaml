@@ -5,8 +5,63 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfQuestionnaire"
         mc:Ignorable="d"
-        Title="Quizzz" Height="450" Width="800">
-    <Grid>
+        Title="Quizzz" Height="800" Width="550"
+        WindowStartupLocation="CenterScreen">
+    <Border CornerRadius="20" Background="Transparent" Margin="0">
+        <Grid Background="#3D348B">
 
-    </Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                                  
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" 
+               FontSize="80" FontWeight="ExtraBold" Foreground="#E0E2DB"
+               >Quiz App</Label>
+
+        <TextBlock Grid.Row="1" TextWrapping="Wrap" 
+                   Text="This is your question." 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Center" 
+                   FontSize="26" FontWeight="Bold"
+                   Foreground="#E6AF2E"/>
+
+        <Button Grid.Row="4" Content="Answer A" Margin="10" Click="HandleAnswerClick"/>
+
+        <Button Grid.Row="5" Content="Answer B" Margin="10" Click="HandleAnswerClick"/>
+
+        <Button Grid.Row="6" Content="Answer C" Margin="10" Click="HandleAnswerClick"/>
+
+        <Button Grid.Row="7" Content="Answer D" Margin="10" Click="HandleAnswerClick"/>
+
+        <TextBlock Grid.Row="8" HorizontalAlignment="Right" Margin="10" 
+                   VerticalAlignment="Center"
+                   Foreground="#E0E2DB"
+                   FontSize="15"
+                   >Questions Left: 10/10</TextBlock>
+            <TextBox Grid.Row="10" VerticalAlignment="Center" 
+                 FontSize="15"  
+                 Text="Made by: Domien Verstraete" 
+                 Foreground="#E0E2DB"
+                 Background="#3D348B"
+                 BorderBrush="#E0E2DB"
+                 BorderThickness="2"
+                 />
+
+        </Grid>
+    </Border>
 </Window>

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "l+iL2jvO3udsjHVOdQJZ3FxzvoudbyVwWbCpxZ77CT20zgiD1QxGhiBOWaA8U2sowJxkX9IjYHOalIWsKQainQ==",
+  "dgSpecHash": "0RR7DlIDYVd4vY+MvABA4kwELkB67J6Kvx4O9JC5YwgXY3bxJHudsAzZGuCuB1UG7kWhtM49mrca/6kW99MwlA==",
   "success": true,
   "projectFilePath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\domie\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
