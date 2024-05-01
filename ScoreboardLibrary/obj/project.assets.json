@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\domie\\.nuget\\packages\\": {}
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj",
       "projectName": "ScoreboardLibrary",
-      "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj",
-      "packagesPath": "C:\\Users\\domie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ScoreboardLibrary\\obj\\",
+      "projectPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\ScoreboardLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\domie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
