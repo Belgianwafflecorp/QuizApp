@@ -59,7 +59,7 @@
                  Foreground="#E0E2DB"
                  Background="#3D348B"
                  BorderBrush="#E0E2DB"
-                 BorderThickness="2"
+                 BorderThickness="0.2"
                  />
 
         </Grid>

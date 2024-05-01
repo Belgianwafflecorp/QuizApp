@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace QuestionnaireLibrary
 {
-    internal class Answer
+    public class Answer
     {
 
-        public string text = null;
-        public bool isCorrect = false;
+        public string Text;
+        public bool IsCorrect;
 
         public Answer(string text, bool isCorrect)
         {
-            this.text = text;
-            this.isCorrect = isCorrect;
+            Text = text;
+            IsCorrect = isCorrect;
         }
 
         public override string ToString()
         {
-            return text + "is " +isCorrect;
+            return Text;
         }
     }
 }

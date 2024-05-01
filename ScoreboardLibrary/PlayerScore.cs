@@ -6,7 +6,32 @@ using System.Threading.Tasks;
 
 namespace ScoreboardLibrary
 {
-    internal class PlayerScore
+    public class PlayerScore
     {
+        private string player;
+        private int score;
+
+        public string Player
+        {
+            get { return player; }
+            set { player = value; }
+        }
+
+        public int Score
+        {
+            get { return score; }
+            set { score = value; }
+        }
+
+        public PlayerScore(string player, int score)
+        {
+            Player = player;
+            Score = score;
+        }
+
+        public override string ToString()
+        {
+            return $"{Player} [{Score}]";
+        }
     }
 }
