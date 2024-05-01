@@ -1,10 +1,15 @@
-﻿namespace ConsoleQuizApp
+﻿
+using TriviaApiLibrary;
+
+namespace ConsoleQuizApp
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            TriviaApiRequester Trivia = new TriviaApiRequester();
+
+            Trivia.RequestRandomQuestion(IQuestionHandler handler);
         }
     }
 }
