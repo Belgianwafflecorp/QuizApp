@@ -7,8 +7,22 @@
         mc:Ignorable="d"
         Title="Quizzz" Height="800" Width="550"
         WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <LinearGradientBrush x:Key="BackgroundBrush">
+            <GradientStop Offset="0" Color="#3D348B"/>
+            <GradientStop Offset="1.2" Color="#000000"/>
+        </LinearGradientBrush>
+
+        <LinearGradientBrush x:Key="BorderBrush">
+            <GradientStop Offset="0" Color="#FFFF"/>
+            <GradientStop Offset="0.5" Color="#000000"/>
+        </LinearGradientBrush>
+    </Window.Resources>
+
     <Border CornerRadius="20" Background="Transparent" Margin="0">
-        <Grid Background="#3D348B">
+
+        <Grid Background="{DynamicResource BackgroundBrush}">
 
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
@@ -30,7 +44,7 @@
             </Grid.RowDefinitions>
 
         <Label Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" 
-               FontSize="80" FontWeight="ExtraBold" Foreground="#E0E2DB"
+               FontSize="90" FontWeight="ExtraBold" Foreground="#E0E2DB"
                >Quiz App</Label>
 
         <TextBlock Grid.Row="1" TextWrapping="Wrap" 
@@ -40,15 +54,63 @@
                    FontSize="26" FontWeight="Bold"
                    Foreground="#E6AF2E"/>
 
-        <Button Grid.Row="4" Content="Answer A" Margin="10" Click="HandleAnswerClick"/>
+            <Button x:Name="AnswerA" Grid.Row="4" Content="Answer A" 
+                    Background="#E6AF2E" Height="50"
+                    FontWeight="Bold" FontSize="26"
+                    Margin="20" Click="HandleAnswerClick"
+                    BorderBrush="{DynamicResource BorderBrush}" BorderThickness="2"
+                    >
+                <Button.Resources>
+                    <Style  TargetType="Border">
+                    <Setter Property="CornerRadius" 
+                            Value="20" />
+                </Style>
+            </Button.Resources>
+            </Button>
 
-        <Button Grid.Row="5" Content="Answer B" Margin="10" Click="HandleAnswerClick"/>
+            <Button x:Name="AnswerB" Grid.Row="5" Content="Answer B" 
+                    Background="#E6AF2E" Height="50"
+                    FontWeight="Bold" FontSize="26"
+                    Margin="20" Click="HandleAnswerClick"
+                    BorderBrush="{DynamicResource BorderBrush}" BorderThickness="2"
+                    >
+                <Button.Resources>
+                    <Style      TargetType="Border">
+                        <Setter Property="CornerRadius" 
+                                Value="20" />
+                    </Style>
+                </Button.Resources>
+            </Button>
 
-        <Button Grid.Row="6" Content="Answer C" Margin="10" Click="HandleAnswerClick"/>
+            <Button x:Name="AnswerC" Grid.Row="6" Content="Answer C" 
+                    Background="#E6AF2E" Height="50"
+                    FontWeight="Bold" FontSize="26"
+                    Margin="20" Click="HandleAnswerClick"
+                    BorderBrush="{DynamicResource BorderBrush}" BorderThickness="2"
+                    >
+                <Button.Resources>
+                    <Style      TargetType="Border">
+                        <Setter Property="CornerRadius" 
+                                Value="20" />
+                    </Style>
+                </Button.Resources>
+            </Button>
 
-        <Button Grid.Row="7" Content="Answer D" Margin="10" Click="HandleAnswerClick"/>
+            <Button x:Name="AnswerD" Grid.Row="7" Content="Answer D" 
+                    Background="#E6AF2E" Height="50"
+                    FontWeight="Bold" FontSize="26"
+                    Margin="20" Click="HandleAnswerClick"
+                    BorderBrush="{DynamicResource BorderBrush}" BorderThickness="2"
+                    >
+                <Button.Resources>
+                    <Style      TargetType="Border">
+                        <Setter Property="CornerRadius" 
+                                Value="20" />
+                    </Style>
+                </Button.Resources>
+            </Button>
 
-        <TextBlock Grid.Row="8" HorizontalAlignment="Right" Margin="10" 
+            <TextBlock Grid.Row="8" HorizontalAlignment="Right" Margin="10" 
                    VerticalAlignment="Center"
                    Foreground="#E0E2DB"
                    FontSize="15"
@@ -57,7 +119,7 @@
                  FontSize="15"  
                  Text="Made by: Domien Verstraete" 
                  Foreground="#E0E2DB"
-                 Background="#3D348B"
+                 Background="Transparent"
                  BorderBrush="#E0E2DB"
                  BorderThickness="0.2"
                  />
