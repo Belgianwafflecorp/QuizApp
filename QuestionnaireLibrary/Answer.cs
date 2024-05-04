@@ -12,6 +12,7 @@ namespace QuestionnaireLibrary
         public string Text;
         public bool IsCorrect;
 
+        // constructor 
         public Answer(string text, bool isCorrect)
         {
             Text = text;

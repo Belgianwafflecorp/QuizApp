@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace QuestionnaireLibrary
 {
-    internal class Question
+    public class Question
     {
 
         private readonly List<Answer> possibleAnswer = new();
@@ -17,6 +17,7 @@ namespace QuestionnaireLibrary
 
         public List<Answer> Answers { get { return possibleAnswer; } }
         
+        // constructor
         public Question(string text)
         {
             Text = text;

@@ -1,0 +1,12 @@
+C:\Users\ADMIN\Desktop\github repos\QuizApp\ScoreboardLibrary\bin\Debug\net6.0\ScoreboardLibrary.deps.json
+C:\Users\ADMIN\Desktop\github repos\QuizApp\ScoreboardLibrary\bin\Debug\net6.0\ScoreboardLibrary.dll
+C:\Users\ADMIN\Desktop\github repos\QuizApp\ScoreboardLibrary\bin\Debug\net6.0\ScoreboardLibrary.pdb
+C:\Users\ADMIN\Desktop\github repos\QuizApp\ScoreboardLibrary\obj\Debug\net6.0\ScoreboardLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\github repos\QuizApp\ScoreboardLibrary\obj\Debug\net6.0\ScoreboardLibrary.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\github repos\QuizApp\ScoreboardLibrary\obj\Debug\net6.0\ScoreboardLibrary.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\github repos\QuizApp\ScoreboardLibrary\obj\Debug\net6.0\ScoreboardLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\github repos\QuizApp\ScoreboardLibrary\obj\Debug\net6.0\ScoreboardLibrary.sourcelink.json
+C:\Users\ADMIN\Desktop\github repos\QuizApp\ScoreboardLibrary\obj\Debug\net6.0\ScoreboardLibrary.dll
+C:\Users\ADMIN\Desktop\github repos\QuizApp\ScoreboardLibrary\obj\Debug\net6.0\refint\ScoreboardLibrary.dll
+C:\Users\ADMIN\Desktop\github repos\QuizApp\ScoreboardLibrary\obj\Debug\net6.0\ScoreboardLibrary.pdb
+C:\Users\ADMIN\Desktop\github repos\QuizApp\ScoreboardLibrary\obj\Debug\net6.0\ref\ScoreboardLibrary.dll

@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\ConsoleQuizApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE68D2C5-02DF-4758-8F39-09D48D5D5054}|..\\WpfQuestionnaire\\WpfQuestionnaire.csproj|c:\\users\\admin\\desktop\\github repos\\quizapp\\wpfquestionnaire\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C29DE38E-ADBE-419C-82C6-C47C139C1B6C}|..\\ScoreboardLibrary\\ScoreboardLibrary.csproj|c:\\users\\admin\\desktop\\github repos\\quizapp\\scoreboardlibrary\\scoreboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4DA632A-4F10-4F72-97C6-1BCA5273A7E8}|ConsoleQuizApp.csproj|c:\\users\\admin\\desktop\\github repos\\quizapp\\consolequizapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4DA632A-4F10-4F72-97C6-1BCA5273A7E8}|ConsoleQuizApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C29DE38E-ADBE-419C-82C6-C47C139C1B6C}|..\\ScoreboardLibrary\\ScoreboardLibrary.csproj|c:\\users\\admin\\desktop\\github repos\\quizapp\\scoreboardlibrary\\playerscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE68D2C5-02DF-4758-8F39-09D48D5D5054}|..\\WpfQuestionnaire\\WpfQuestionnaire.csproj|c:\\users\\admin\\desktop\\github repos\\quizapp\\wpfquestionnaire\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3D362ED-812D-43AA-B0AE-A37FA4902A7C}|..\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj|c:\\users\\admin\\desktop\\github repos\\quizapp\\questionnairelibrary\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BE68D2C5-02DF-4758-8F39-09D48D5D5054}|..\\WpfQuestionnaire\\WpfQuestionnaire.csproj|c:\\users\\admin\\desktop\\github repos\\quizapp\\wpfquestionnaire\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{312F2098-362B-4709-9F55-1C962EF8CFAB}|..\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaApiLibrary.csproj|c:\\users\\admin\\desktop\\github repos\\quizapp\\triviaapilibrary\\triviaapilibrary\\triviamultiplechoicequestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C3D362ED-812D-43AA-B0AE-A37FA4902A7C}|..\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj|c:\\users\\admin\\desktop\\github repos\\quizapp\\questionnairelibrary\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4DA632A-4F10-4F72-97C6-1BCA5273A7E8}|ConsoleQuizApp.csproj|c:\\users\\admin\\desktop\\github repos\\quizapp\\consolequizapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4DA632A-4F10-4F72-97C6-1BCA5273A7E8}|ConsoleQuizApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,11 +29,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TriviaMultipleChoiceQuestion.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaMultipleChoiceQuestion.cs",
+              "RelativeDocumentMoniker": "..\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaMultipleChoiceQuestion.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaMultipleChoiceQuestion.cs",
+              "RelativeToolTip": "..\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaMultipleChoiceQuestion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T11:50:04.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\WpfQuestionnaire\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\WpfQuestionnaire\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\WpfQuestionnaire\\MainWindow.xaml.cs",
+              "RelativeToolTip": "..\\WpfQuestionnaire\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T11:11:40.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\WpfQuestionnaire\\MainWindow.xaml",
               "RelativeDocumentMoniker": "..\\WpfQuestionnaire\\MainWindow.xaml",
@@ -45,64 +71,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\ConsoleQuizApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\ConsoleQuizApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAJEAAAAAAAAAAAAcwCEAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T10:37:35.041Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ScoreBoard.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\ScoreboardLibrary\\ScoreBoard.cs",
-              "RelativeDocumentMoniker": "..\\ScoreboardLibrary\\ScoreBoard.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\ScoreboardLibrary\\ScoreBoard.cs",
-              "RelativeToolTip": "..\\ScoreboardLibrary\\ScoreBoard.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T10:08:48.072Z",
+              "WhenOpened": "2024-05-01T10:37:35.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerScore.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\ScoreboardLibrary\\PlayerScore.cs",
-              "RelativeDocumentMoniker": "..\\ScoreboardLibrary\\PlayerScore.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\ScoreboardLibrary\\PlayerScore.cs",
-              "RelativeToolTip": "..\\ScoreboardLibrary\\PlayerScore.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAwBwAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T10:00:59.542Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Question.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\QuestionnaireLibrary\\Question.cs",
               "RelativeDocumentMoniker": "..\\QuestionnaireLibrary\\Question.cs",
               "ToolTip": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\QuestionnaireLibrary\\Question.cs",
               "RelativeToolTip": "..\\QuestionnaireLibrary\\Question.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBUAAAAYAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T09:50:42.671Z"
+              "WhenOpened": "2024-05-01T09:50:42.671Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Answer.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\QuestionnaireLibrary\\Answer.cs",
               "RelativeDocumentMoniker": "..\\QuestionnaireLibrary\\Answer.cs",
               "ToolTip": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\QuestionnaireLibrary\\Answer.cs",
               "RelativeToolTip": "..\\QuestionnaireLibrary\\Answer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T09:49:06.402Z"
+              "WhenOpened": "2024-05-01T09:49:06.402Z",
+              "EditorCaption": ""
             }
           ]
         }

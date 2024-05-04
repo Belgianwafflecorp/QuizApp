@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfQuestionnaire"
         mc:Ignorable="d"
-        Title="Quizzz" Height="800" Width="550"
+        Title="Quizzz" Height="800" Width="600"
         WindowStartupLocation="CenterScreen">
 
     <Window.Resources>
@@ -25,36 +25,43 @@
         <Grid Background="{DynamicResource BackgroundBrush}">
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                                  
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="200"/>
             </Grid.ColumnDefinitions>
 
             <Grid.RowDefinitions>
             <RowDefinition Height="120"/>
+            <RowDefinition Height="20"/>
             <RowDefinition Height="200"/>
             <RowDefinition Height="auto"/>
-            <RowDefinition Height="*"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
             <RowDefinition Height="30"/>
             </Grid.RowDefinitions>
 
-        <Label Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" 
+        <Label Grid.Row="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" 
                FontSize="90" FontWeight="ExtraBold" Foreground="#E0E2DB"
                >Quiz App</Label>
 
-        <TextBlock Grid.Row="1" TextWrapping="Wrap" 
+        <TextBlock x:Name="question"
+                   Grid.Row="2" TextWrapping="Wrap" 
                    Text="This is your question." 
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Center" 
                    FontSize="26" FontWeight="Bold"
                    Foreground="#E6AF2E"/>
 
-            <Button x:Name="AnswerA" Grid.Row="4" Content="Answer A" 
+            <Image Grid.Row="2" Grid.Column="1" 
+                   x:Name="image"
+                   Source="path/to/your/image.jpg" 
+                   Width="200" Height="200" 
+                   />
+
+
+            <Button x:Name="AnswerA" Grid.Row="4" Grid.ColumnSpan="2" Content="Answer A" 
                     Background="#E6AF2E" Height="50"
                     FontWeight="Bold" FontSize="26"
                     Margin="20" Click="HandleAnswerClick"
@@ -68,7 +75,7 @@
             </Button.Resources>
             </Button>
 
-            <Button x:Name="AnswerB" Grid.Row="5" Content="Answer B" 
+            <Button x:Name="AnswerB" Grid.Row="5" Grid.ColumnSpan="2" Content="Answer B" 
                     Background="#E6AF2E" Height="50"
                     FontWeight="Bold" FontSize="26"
                     Margin="20" Click="HandleAnswerClick"
@@ -82,7 +89,7 @@
                 </Button.Resources>
             </Button>
 
-            <Button x:Name="AnswerC" Grid.Row="6" Content="Answer C" 
+            <Button x:Name="AnswerC" Grid.Row="6" Grid.ColumnSpan="2" Content="Answer C" 
                     Background="#E6AF2E" Height="50"
                     FontWeight="Bold" FontSize="26"
                     Margin="20" Click="HandleAnswerClick"
@@ -96,7 +103,7 @@
                 </Button.Resources>
             </Button>
 
-            <Button x:Name="AnswerD" Grid.Row="7" Content="Answer D" 
+            <Button x:Name="AnswerD" Grid.Row="7" Grid.ColumnSpan="2" Content="Answer D" 
                     Background="#E6AF2E" Height="50"
                     FontWeight="Bold" FontSize="26"
                     Margin="20" Click="HandleAnswerClick"
@@ -110,12 +117,13 @@
                 </Button.Resources>
             </Button>
 
-            <TextBlock Grid.Row="8" HorizontalAlignment="Right" Margin="10" 
-                   VerticalAlignment="Center"
-                   Foreground="#E0E2DB"
-                   FontSize="15"
-                   >Questions Left: 10/10</TextBlock>
-            <TextBox Grid.Row="10" VerticalAlignment="Center" 
+            <TextBlock Grid.Row="8" Grid.ColumnSpan="1" Grid.Column="1" 
+                       HorizontalAlignment="Center" Margin="10" 
+                       VerticalAlignment="Center"
+                       Foreground="#E0E2DB"
+                       FontSize="15"
+                   >Questions Left:</TextBlock>
+            <TextBox Grid.Row="10" Grid.ColumnSpan="2" VerticalAlignment="Center" 
                  FontSize="15"  
                  Text="Made by: Domien Verstraete" 
                  Foreground="#E0E2DB"
