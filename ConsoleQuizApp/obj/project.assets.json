@@ -105,19 +105,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
+    "C:\\Users\\domie\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj",
+      "projectUniqueName": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj",
       "projectName": "ConsoleQuizApp",
-      "projectPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj",
-      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\ConsoleQuizApp\\obj\\",
+      "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj",
+      "packagesPath": "C:\\Users\\domie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ConsoleQuizApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\domie\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -131,14 +131,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj": {
-              "projectPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj"
+            "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj": {
+              "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj"
             },
-            "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj": {
-              "projectPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj"
+            "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj": {
+              "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj"
             },
-            "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaApiLibrary.csproj": {
-              "projectPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaApiLibrary.csproj"
+            "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaApiLibrary.csproj": {
+              "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaApiLibrary.csproj"
             }
           }
         }
@@ -176,13 +176,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\ConsoleQuizApp\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

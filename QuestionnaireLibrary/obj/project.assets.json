@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
+    "C:\\Users\\domie\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj",
       "projectName": "QuestionnaireLibrary",
-      "projectPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj",
-      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\QuizApp\\QuestionnaireLibrary\\obj\\",
+      "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj",
+      "packagesPath": "C:\\Users\\domie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\QuestionnaireLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\domie\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
