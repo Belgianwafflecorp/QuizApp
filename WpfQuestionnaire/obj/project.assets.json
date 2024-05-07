@@ -15,6 +15,21 @@
           }
         }
       },
+      "ConsoleQuizApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "QuestionnaireLibrary": "1.0.0",
+          "ScoreboardLibrary": "1.0.0",
+          "TriviaApiLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ConsoleQuizApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConsoleQuizApp.dll": {}
+        }
+      },
       "QuestionnaireLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -81,6 +96,11 @@
         "packageIcon.png"
       ]
     },
+    "ConsoleQuizApp/1.0.0": {
+      "type": "project",
+      "path": "../ConsoleQuizApp/ConsoleQuizApp.csproj",
+      "msbuildProject": "../ConsoleQuizApp/ConsoleQuizApp.csproj"
+    },
     "QuestionnaireLibrary/1.0.0": {
       "type": "project",
       "path": "../QuestionnaireLibrary/QuestionnaireLibrary.csproj",
@@ -99,6 +119,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
+      "ConsoleQuizApp >= 1.0.0",
       "QuestionnaireLibrary >= 1.0.0",
       "ScoreboardLibrary >= 1.0.0",
       "TriviaApiLibrary >= 1.0.0"
@@ -131,6 +152,9 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
+            "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj": {
+              "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj"
+            },
             "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj": {
               "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj"
             },

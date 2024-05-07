@@ -11,6 +11,7 @@ using System.Windows.Shapes;
 using QuestionnaireLibrary;
 using TriviaApiLibrary;
 using ScoreboardLibrary;
+using ConsoleQuizApp;
 
 namespace WpfQuestionnaire
 {
@@ -19,12 +20,21 @@ namespace WpfQuestionnaire
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        public readonly IQuestionPageHandler handler;
+
         public MainWindow()
         {
+            this.handler = handler;
             InitializeComponent();
         }
 
         
+
+
+
+
+
 
 
     }

@@ -4,6 +4,76 @@
     "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\WpfQuestionnaire\\WpfQuestionnaire.csproj": {}
   },
   "projects": {
+    "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj",
+        "projectName": "ConsoleQuizApp",
+        "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj",
+        "packagesPath": "C:\\Users\\domie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ConsoleQuizApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\domie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj": {
+                "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj"
+              },
+              "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj": {
+                "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj"
+              },
+              "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaApiLibrary.csproj": {
+                "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaApiLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -214,6 +284,9 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
+              "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj": {
+                "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj"
+              },
               "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj": {
                 "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj"
               },

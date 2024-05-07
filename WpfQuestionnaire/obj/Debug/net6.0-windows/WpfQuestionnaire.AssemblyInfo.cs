@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WpfQuestionnaire")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89ebd0206e9f6f4dffc6b1aef3e72de8adcc2ea0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f470f775c76d9eb3ca822803b6332a806b5a331f")]
 [assembly: System.Reflection.AssemblyProductAttribute("WpfQuestionnaire")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WpfQuestionnaire")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
