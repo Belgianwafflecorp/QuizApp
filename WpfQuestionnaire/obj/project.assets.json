@@ -126,19 +126,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\domie\\.nuget\\packages\\": {}
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\WpfQuestionnaire\\WpfQuestionnaire.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\WpfQuestionnaire\\WpfQuestionnaire.csproj",
       "projectName": "WpfQuestionnaire",
-      "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\WpfQuestionnaire\\WpfQuestionnaire.csproj",
-      "packagesPath": "C:\\Users\\domie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\WpfQuestionnaire\\obj\\",
+      "projectPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\WpfQuestionnaire\\WpfQuestionnaire.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\WpfQuestionnaire\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\domie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -152,17 +152,17 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj": {
-              "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj"
+            "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj": {
+              "projectPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj"
             },
-            "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj": {
-              "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj"
+            "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj": {
+              "projectPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj"
             },
-            "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj": {
-              "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj"
+            "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj": {
+              "projectPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj"
             },
-            "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaApiLibrary.csproj": {
-              "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaApiLibrary.csproj"
+            "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaApiLibrary.csproj": {
+              "projectPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaApiLibrary.csproj"
             }
           }
         }

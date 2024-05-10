@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ec/eKB9YfZf8eVnG9LfSm+EB06Lzmn5hET4pWvtY/1WLL0hE4KGlOUXEpdEu0rj1+v+5dcglv2gtBQf15h8bqQ==",
+  "dgSpecHash": "IApLfxfgaTq+xmCpgS1/WiAd3UQ82ELhTVsRjarSa6dV4RsRRQN/uWtEdsiDMKKptRs7/dSv/kUtB0aC3jF1UQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\WpfQuestionnaire\\WpfQuestionnaire.csproj",
+  "projectFilePath": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\WpfQuestionnaire\\WpfQuestionnaire.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\domie\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\ADMIN\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
