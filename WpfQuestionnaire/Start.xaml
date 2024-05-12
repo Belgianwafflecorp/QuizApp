@@ -62,7 +62,7 @@
 
                 <TextBlock Text="to my Quiz App." Style="{StaticResource Text}" />
                 <TextBlock Text="Press start to play." Style="{StaticResource Text}" />
-                <TextBlock Text="After you finnished the quiz." Style="{StaticResource Text}" />
+                <TextBlock Text="After you finished the quiz." Style="{StaticResource Text}" />
                 <TextBlock Text="You will be able to see " Style="{StaticResource Text}" />
                 <TextBlock Text="the scoreboard. " Style="{StaticResource Text}" />
                 <TextBlock Text="And how well you preformed" Style="{StaticResource Text}" />
