@@ -1,5 +1,5 @@
 ﻿WpfQuestionnaire
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\App.xaml
 4-971918709
 
-9872401736
+7-412300239
 199600818163
 MainWindow.xaml;Scoreboard.xaml;Start.xaml;UsernameInputWindow.xaml;
 
-False
+True
 

@@ -1,0 +1,8 @@
+C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Debug\net6.0-windows\WpfQuestionnaire.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Debug\net6.0-windows\Scoreboard.g.cs
+C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Debug\net6.0-windows\Start.g.cs
+C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Debug\net6.0-windows\WpfQuestionnaire_MarkupCompile.cache
+C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Debug\net6.0-windows\WpfQuestionnaire_MarkupCompile.lref
+C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Debug\net6.0-windows\UsernameInputWindow.g.cs

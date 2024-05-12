@@ -31,23 +31,23 @@
             </Grid.ColumnDefinitions>
 
             <Grid.RowDefinitions>
-            <RowDefinition Height="120"/>
-            <RowDefinition Height="20"/>
-            <RowDefinition Height="200"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="40"/>
-            <RowDefinition Height="30"/>
+                <RowDefinition Height="120"/>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="30"/>
             </Grid.RowDefinitions>
 
-        <Label Grid.Row="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" 
+            <Label Grid.Row="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" 
                FontSize="90" FontWeight="ExtraBold" Foreground="#E0E2DB"
                >Quiz App</Label>
 
-        <TextBlock x:Name="question"
+            <TextBlock x:Name="questionTextBlock"
                    Grid.Row="2" TextWrapping="Wrap" 
                    Text="This is your question." 
                    HorizontalAlignment="Center" 
@@ -61,7 +61,6 @@
                    Width="200" Height="200" 
                    />
 
-
             <Button x:Name="AnswerA" Grid.Row="4" Grid.ColumnSpan="2" Content="Answer A" 
                     Background="#E6AF2E" Height="50"
                     FontWeight="Bold" FontSize="26"
@@ -70,10 +69,9 @@
                     >
                 <Button.Resources>
                     <Style  TargetType="Border">
-                    <Setter Property="CornerRadius" 
-                            Value="20" />
-                </Style>
-            </Button.Resources>
+                        <Setter Property="CornerRadius" Value="20" />
+                    </Style>
+                </Button.Resources>
             </Button>
 
             <Button x:Name="AnswerB" Grid.Row="5" Grid.ColumnSpan="2" Content="Answer B" 
@@ -84,8 +82,7 @@
                     >
                 <Button.Resources>
                     <Style      TargetType="Border">
-                        <Setter Property="CornerRadius" 
-                                Value="20" />
+                        <Setter Property="CornerRadius" Value="20" />
                     </Style>
                 </Button.Resources>
             </Button>
@@ -98,8 +95,7 @@
                     >
                 <Button.Resources>
                     <Style      TargetType="Border">
-                        <Setter Property="CornerRadius" 
-                                Value="20" />
+                        <Setter Property="CornerRadius" Value="20" />
                     </Style>
                 </Button.Resources>
             </Button>
@@ -112,8 +108,7 @@
                     >
                 <Button.Resources>
                     <Style      TargetType="Border">
-                        <Setter Property="CornerRadius" 
-                                Value="20" />
+                        <Setter Property="CornerRadius" Value="20" />
                     </Style>
                 </Button.Resources>
             </Button>
