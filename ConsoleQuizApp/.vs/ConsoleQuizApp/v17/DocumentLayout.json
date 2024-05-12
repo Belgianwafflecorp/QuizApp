@@ -4,9 +4,6 @@
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{BE68D2C5-02DF-4758-8F39-09D48D5D5054}|..\\WpfQuestionnaire\\WpfQuestionnaire.csproj|c:\\users\\admin\\desktop\\github repos\\csharp\\quizapp\\wpfquestionnaire\\start.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE68D2C5-02DF-4758-8F39-09D48D5D5054}|..\\WpfQuestionnaire\\WpfQuestionnaire.csproj|c:\\users\\admin\\desktop\\github repos\\csharp\\quizapp\\wpfquestionnaire\\scoreboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -16,20 +13,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Scoreboard.xaml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\WpfQuestionnaire\\Scoreboard.xaml",
-              "RelativeDocumentMoniker": "..\\WpfQuestionnaire\\Scoreboard.xaml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\WpfQuestionnaire\\Scoreboard.xaml",
-              "RelativeToolTip": "..\\WpfQuestionnaire\\Scoreboard.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-10T07:39:44.113Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
