@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TriviaApiLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aca747702a602467bfda64a1cab8352f2acf0f9b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a97c0c362484e417669f0fdb656f53d0f533ead")]
 [assembly: System.Reflection.AssemblyProductAttribute("TriviaApiLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TriviaApiLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
