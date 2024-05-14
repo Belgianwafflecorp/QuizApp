@@ -11,16 +11,3 @@ C:\Users\ADMIN\Desktop\github repos\QuizApp\TriviaApiLibrary\TriviaApiLibrary\ob
 C:\Users\ADMIN\Desktop\github repos\QuizApp\TriviaApiLibrary\TriviaApiLibrary\obj\Debug\net6.0\refint\TriviaApiLibrary.dll
 C:\Users\ADMIN\Desktop\github repos\QuizApp\TriviaApiLibrary\TriviaApiLibrary\obj\Debug\net6.0\TriviaApiLibrary.pdb
 C:\Users\ADMIN\Desktop\github repos\QuizApp\TriviaApiLibrary\TriviaApiLibrary\obj\Debug\net6.0\ref\TriviaApiLibrary.dll
-C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\TriviaApiLibrary\TriviaApiLibrary\bin\Debug\net6.0\TriviaApiLibrary.deps.json
-C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\TriviaApiLibrary\TriviaApiLibrary\bin\Debug\net6.0\TriviaApiLibrary.dll
-C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\TriviaApiLibrary\TriviaApiLibrary\bin\Debug\net6.0\TriviaApiLibrary.pdb
-C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\TriviaApiLibrary\TriviaApiLibrary\obj\Debug\net6.0\TriviaApiLibrary.csproj.AssemblyReference.cache
-C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\TriviaApiLibrary\TriviaApiLibrary\obj\Debug\net6.0\TriviaApiLibrary.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\TriviaApiLibrary\TriviaApiLibrary\obj\Debug\net6.0\TriviaApiLibrary.AssemblyInfoInputs.cache
-C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\TriviaApiLibrary\TriviaApiLibrary\obj\Debug\net6.0\TriviaApiLibrary.AssemblyInfo.cs
-C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\TriviaApiLibrary\TriviaApiLibrary\obj\Debug\net6.0\TriviaApiLibrary.csproj.CoreCompileInputs.cache
-C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\TriviaApiLibrary\TriviaApiLibrary\obj\Debug\net6.0\TriviaApiLibrary.sourcelink.json
-C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\TriviaApiLibrary\TriviaApiLibrary\obj\Debug\net6.0\TriviaApiLibrary.dll
-C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\TriviaApiLibrary\TriviaApiLibrary\obj\Debug\net6.0\refint\TriviaApiLibrary.dll
-C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\TriviaApiLibrary\TriviaApiLibrary\obj\Debug\net6.0\TriviaApiLibrary.pdb
-C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\TriviaApiLibrary\TriviaApiLibrary\obj\Debug\net6.0\ref\TriviaApiLibrary.dll

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj": {}
+    "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj",
         "projectName": "ScoreboardLibrary",
-        "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj",
-        "packagesPath": "C:\\Users\\domie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ScoreboardLibrary\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ScoreboardLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\domie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

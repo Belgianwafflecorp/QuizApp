@@ -112,13 +112,14 @@ namespace WpfQuestionnaire
             if (selectedAnswer == correctAnswer)
             {
                 MessageBox.Show("Correct!");
-                correctAnswerCount++; // Increment the correct answer count
+                correctAnswerCount++;
             }
 
             else
             {
-                MessageBox.Show("Incorrect. Try again!");
+                MessageBox.Show("Incorrect.");
             }
+
 
             // Present the next question
             PresentQuestion();
