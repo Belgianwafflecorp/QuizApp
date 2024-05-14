@@ -8,6 +8,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WpfQuestionnaire
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\
+=======
+build_property.ProjectDir = C:\Users\domie\Desktop\Github\QuizApp\WpfQuestionnaire\
+>>>>>>> 7d9c3934325b0f8d70e8b17c05ba1d2ed44a7d69
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
