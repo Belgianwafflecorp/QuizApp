@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj": {}
+    "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj",
         "projectName": "ConsoleQuizApp",
-        "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj",
-        "packagesPath": "C:\\Users\\domie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ConsoleQuizApp\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ConsoleQuizApp\\ConsoleQuizApp.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ConsoleQuizApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\domie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,14 +28,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj": {
-                "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj"
+              "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj"
               },
-              "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj": {
-                "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj"
+              "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj"
               },
-              "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaApiLibrary.csproj": {
-                "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaApiLibrary.csproj"
+              "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaApiLibrary.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaApiLibrary.csproj"
               }
             }
           }
@@ -70,21 +70,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj",
         "projectName": "QuestionnaireLibrary",
-        "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj",
-        "packagesPath": "C:\\Users\\domie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\QuestionnaireLibrary\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\QuestionnaireLibrary\\QuestionnaireLibrary.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\QuestionnaireLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\domie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,21 +130,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj",
         "projectName": "ScoreboardLibrary",
-        "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj",
-        "packagesPath": "C:\\Users\\domie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\ScoreboardLibrary\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ScoreboardLibrary\\ScoreboardLibrary.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ScoreboardLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\domie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -190,21 +190,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaApiLibrary.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaApiLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaApiLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaApiLibrary.csproj",
         "projectName": "TriviaApiLibrary",
-        "projectPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaApiLibrary.csproj",
-        "packagesPath": "C:\\Users\\domie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\TriviaApiLibrary.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\TriviaApiLibrary\\TriviaApiLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\domie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -256,7 +256,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
