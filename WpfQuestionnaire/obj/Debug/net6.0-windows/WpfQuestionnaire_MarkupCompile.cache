@@ -1,19 +1,19 @@
 ﻿WpfQuestionnaire
-
+1.0.0.0
 
 winexe
 C#
 .cs
-C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Debug\net6.0-windows\
+c:\Users\domie\Desktop\Github\QuizApp\WpfQuestionnaire\obj\Debug\net6.0-windows\
 WpfQuestionnaire
 none
 false
-TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\App.xaml
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+c:\Users\domie\Desktop\Github\QuizApp\WpfQuestionnaire\App.xaml
 4-971918709
 
-7-412300239
-199600818163
+9872401736
+198364287404
 MainWindow.xaml;Scoreboard.xaml;Start.xaml;UsernameInputWindow.xaml;
 
 True
