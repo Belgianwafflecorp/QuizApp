@@ -29,7 +29,7 @@
               "RelativeDocumentMoniker": "..\\WpfQuestionnaire\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\WpfQuestionnaire\\MainWindow.xaml.cs",
               "RelativeToolTip": "..\\WpfQuestionnaire\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAGcAAAAAAAAAAAAwwHwAAAAAAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwHwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T13:00:16.306Z",
               "EditorCaption": ""
@@ -43,8 +43,7 @@
               "ToolTip": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\WpfQuestionnaire\\MainWindow.xaml",
               "RelativeToolTip": "..\\WpfQuestionnaire\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-14T13:00:14.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T13:00:14.572Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "ToolTip": "C:\\Users\\domie\\Desktop\\Github\\QuizApp\\WpfQuestionnaire\\UsernameInputWindow.xaml",
               "RelativeToolTip": "..\\WpfQuestionnaire\\UsernameInputWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-14T12:58:27.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T12:58:27.357Z"
             }
           ]
         }
