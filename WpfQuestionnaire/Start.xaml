@@ -73,10 +73,10 @@
         
 
         <Button x:Name="StartQuiz" Grid.Row="4" Grid.ColumnSpan="2" Content="Start" 
-    Background="#E6AF2E" Height="auto"
-    FontWeight="Bold" FontSize="50"
-    Margin="20 0 20 30" Click="HandleAnswerClick"
-    BorderBrush="{DynamicResource BorderBrush}" BorderThickness="2"
+                Background="#E6AF2E" Height="auto"
+                FontWeight="Bold" FontSize="50"
+                Margin="20 0 20 30" Click="HandleAnswerClick"
+                BorderBrush="{DynamicResource BorderBrush}" BorderThickness="2"
     >
             <Button.Resources>
                 <Style  TargetType="Border">
