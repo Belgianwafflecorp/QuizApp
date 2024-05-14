@@ -122,6 +122,7 @@ namespace WpfQuestionnaire
 
             // Present the next question
             PresentQuestion();
+
         }
 
     }
