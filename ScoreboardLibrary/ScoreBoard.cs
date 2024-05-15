@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Input;
+
 
 namespace ScoreboardLibrary
 {

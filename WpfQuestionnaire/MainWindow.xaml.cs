@@ -12,6 +12,7 @@ using QuestionnaireLibrary;
 using TriviaApiLibrary;
 using ScoreboardLibrary;
 using ConsoleQuizApp;
+using System.Diagnostics.Eventing.Reader;
 
 namespace WpfQuestionnaire
 {
@@ -37,7 +38,8 @@ namespace WpfQuestionnaire
         {
             if (questionCount < 10)
             {
-                await TriviaApiRequester.RequestRandomQuestion(this);
+                questionCount++;
+                await TriviaApiRequester.RequestRandomQuestion(this);  
             }
             else
             {
@@ -49,35 +51,24 @@ namespace WpfQuestionnaire
         private void ShowUsernameInputDialog()
         {
             UsernameInputWindow usernameWindow = new UsernameInputWindow(correctAnswerCount);
-            if (usernameWindow.ShowDialog() == true)
-            {
-                string username = usernameWindow.Username;
-                // Process the username if needed
-            }
-        }
-
-
-        private void ProcessScore(string username)
-        {
-            scoreboard.AddPlayer(username, correctAnswerCount);
-            ShowScoreboard();
-        }
-
-        private void ShowScoreboard()
-        {
-            // Display the scoreboard using a new window or any other method you prefer
-            MessageBox.Show(scoreboard.ToString());
+            usernameWindow.ShowDialog();
+            this.Close();
         }
 
         public void ProcessQuestion(TriviaMultipleChoiceQuestion question)
         {
             if (question != null)
-            {
+            { 
                 questions.Add(question);
                 questionCount++;
-                if (questionCount < 10)
+                if (questionCount <= 10)
                 {
-                    FetchRandomQuestion();
+                    questionTextBlock.Text = FetchRandomQuestion();
+                }
+                else if (questionCount >= 10)
+                {
+                    // open username input
+                    ShowUsernameInputDialog();
                 }
                 else
                 {
@@ -90,6 +81,7 @@ namespace WpfQuestionnaire
                 MessageBox.Show("Failed to fetch question.");
             }
         }
+
 
         private void PresentQuestion()
         {

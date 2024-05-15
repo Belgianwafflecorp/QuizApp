@@ -23,5 +23,12 @@ namespace WpfQuestionnaire
         {
             InitializeComponent();
         }
+
+        public void CloseApp_click(object sender, RoutedEventArgs e)
+        {
+            // Close the current window
+            this.Close();
+        }
+
     }
 }

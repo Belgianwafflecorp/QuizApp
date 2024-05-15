@@ -23,5 +23,15 @@ namespace WpfQuestionnaire
         {
             InitializeComponent();
         }
+
+        private void StartQuiz_Click(object sender, RoutedEventArgs e)
+        {
+            // Open the Main Window
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+
+            // Close the current window
+            this.Close();
+        }
     }
 }

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WpfQuestionnaire"
         mc:Ignorable="d"
         Title="QuizApp welcome" Height="800" Width="600"
-        ResizeMode="NoResize">
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
 
     <Window.Resources>
         <LinearGradientBrush x:Key="BackgroundBrush">
@@ -75,7 +75,7 @@
         <Button x:Name="StartQuiz" Grid.Row="4" Grid.ColumnSpan="2" Content="Start" 
                 Background="#E6AF2E" Height="auto"
                 FontWeight="Bold" FontSize="50"
-                Margin="20 0 20 30" Click="HandleAnswerClick"
+                Margin="20 0 20 30" Click="StartQuiz_Click"
                 BorderBrush="{DynamicResource BorderBrush}" BorderThickness="2"
     >
             <Button.Resources>
