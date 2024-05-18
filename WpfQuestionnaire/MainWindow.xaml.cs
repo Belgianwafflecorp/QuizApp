@@ -103,7 +103,7 @@ namespace WpfQuestionnaire
                 questions.RemoveAt(0);
 
                 // Update the questions_left TextBlock
-                questions_left.Text = $"Question: {questionCount}/{10}";
+                questions_left.Text = $"Question: {questionCount + 1}/{10}";
 
                 // Update the questionTextBlock and answer buttons
                 questionTextBlock.Text = currentQuestion.Question.Text;
