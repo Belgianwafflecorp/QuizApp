@@ -29,8 +29,12 @@
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
             <Label Content="Enter your username:" HorizontalAlignment="Center" Foreground="{StaticResource ForegroundBrush}"
                FontSize="25" FontWeight="Bold"/>
-            <TextBlock x:Name="correctAnswersTextBlock" FontSize="16" Margin="10"/>
+            
+            <TextBlock x:Name="correctAnswersTextBlock" FontSize="16" Margin="10"
+                       Foreground="#FFFF"/>
+            
             <TextBox x:Name="txtUsername" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Margin="0,10,0,10"/>
+            
             <Button Content="Submit" HorizontalAlignment="Center" VerticalAlignment="Center" 
                 Margin="0,20,0,0" Click="Submit_Click"
                 Background="#E6AF2E" Height="30" Width="100"

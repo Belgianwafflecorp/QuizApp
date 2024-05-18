@@ -18,10 +18,12 @@ namespace WpfQuestionnaire
     public partial class UsernameInputWindow : Window
     {
         public string Username { get; private set; }
+        private int correctAnswerCount;
 
         public UsernameInputWindow(int correctAnswerCount)
         {
             InitializeComponent();
+            this.correctAnswerCount = correctAnswerCount;
             correctAnswersTextBlock.Text = $"You answered {correctAnswerCount} questions correctly.";
         }
 

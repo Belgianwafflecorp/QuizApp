@@ -101,18 +101,20 @@
                 </Button.Resources>
             </Button>
 
-            <TextBlock Grid.Row="8" Grid.ColumnSpan="1" Grid.Column="1" 
+            <TextBlock x:Name="questions_left"
+                       Grid.Row="8" Grid.ColumnSpan="1" Grid.Column="1" 
                        HorizontalAlignment="Center" Margin="10" 
                        VerticalAlignment="Center"
                        Foreground="#E0E2DB"
-                       FontSize="15">Questions Left:</TextBlock>
+                       FontSize="15"/>
+            
             <TextBox Grid.Row="10" Grid.ColumnSpan="2" VerticalAlignment="Center" 
-                 FontSize="15"  
-                 Text="Made by: Domien Verstraete" 
-                 Foreground="#E0E2DB"
-                 Background="Transparent"
-                 BorderBrush="#E0E2DB"
-                 BorderThickness="0.2"/>
+                     FontSize="15"  
+                     Text="Made by: Domien Verstraete" 
+                     Foreground="#E0E2DB"
+                     Background="Transparent"
+                     BorderBrush="#E0E2DB"
+                     BorderThickness="0.2"/>
         </Grid>
     </Border>
 </Window>

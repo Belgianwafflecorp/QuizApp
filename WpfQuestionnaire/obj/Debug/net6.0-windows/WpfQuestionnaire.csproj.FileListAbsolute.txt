@@ -1,4 +1,5 @@
 C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Debug\net6.0-windows\WpfQuestionnaire.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Debug\net6.0-windows\Scoreboard.baml
 C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Debug\net6.0-windows\MainWindow.g.cs
 C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Debug\net6.0-windows\Scoreboard.g.cs
 C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Debug\net6.0-windows\Start.g.cs
@@ -24,7 +25,6 @@ C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\bin\Debug\ne
 C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\bin\Debug\net6.0-windows\ScoreboardLibrary.pdb
 C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\bin\Debug\net6.0-windows\TriviaApiLibrary.pdb
 C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Debug\net6.0-windows\MainWindow.baml
-C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Debug\net6.0-windows\Scoreboard.baml
 C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Debug\net6.0-windows\Start.baml
 C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Debug\net6.0-windows\UsernameInputWindow.baml
 C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Debug\net6.0-windows\WpfQuestionnaire.g.resources

@@ -13,6 +13,7 @@ using TriviaApiLibrary;
 using ScoreboardLibrary;
 using ConsoleQuizApp;
 using System.Diagnostics.Eventing.Reader;
+using System.Windows.Media.Animation;
 
 namespace WpfQuestionnaire
 {
@@ -31,7 +32,6 @@ namespace WpfQuestionnaire
             correctAnswerCount = 0;
             questions = new List<TriviaMultipleChoiceQuestion>();
             scoreboard = new ScoreBoard();
-            scoreboard.Load();  // Load previous scores if any
             FetchRandomQuestion();
         }
 
@@ -62,8 +62,8 @@ namespace WpfQuestionnaire
 
         private void ShowScoreboard()
         {
-            ScoreboardWindow scoreboardWindow = new ScoreboardWindow(scoreboard);
-            scoreboardWindow.Show();
+            ScoreBoard scoreboardWindow = new ScoreBoard();
+            scoreboardWindow.Load();
         }
 
         public void ProcessQuestion(TriviaMultipleChoiceQuestion question)
@@ -84,16 +84,21 @@ namespace WpfQuestionnaire
 
         private void PresentQuestion()
         {
+            // Present the first question to the user
             if (questions.Count > 0)
             {
                 currentQuestion = questions[0];
                 questions.RemoveAt(0);
 
+                // Update the questions_left TextBlock
+                questions_left.Text = $"Question: {questionCount}/{10}";
+
+                // Update the questionTextBlock and answer buttons
                 questionTextBlock.Text = currentQuestion.Question.Text;
                 List<string> allAnswers = new List<string>(currentQuestion.IncorrectAnswers)
-                {
-                    currentQuestion.CorrectAnswer
-                };
+        {
+            currentQuestion.CorrectAnswer
+        };
                 allAnswers = ShuffleAnswers(allAnswers);
 
                 AnswerA.Content = allAnswers[0];
@@ -102,6 +107,7 @@ namespace WpfQuestionnaire
                 AnswerD.Content = allAnswers[3];
             }
         }
+
 
         private List<string> ShuffleAnswers(List<string> answers)
         {
@@ -125,9 +131,12 @@ namespace WpfQuestionnaire
                 MessageBox.Show("Incorrect.");
             }
 
+            questionCount++;
+
             if (questionCount < 10)
             {
                 FetchRandomQuestion();
+                PresentQuestion();
             }
             else
             {
