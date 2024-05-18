@@ -33,11 +33,11 @@ namespace WpfQuestionnaire
                 scoreboard.Load();
                 // Bind scoreboard data to UI controls here
                 scoreboardPanel.Children.Clear();
-                foreach (var playerScore in scoreboard.PlayerScores)
+                foreach (PlayerScore player in scoreboard.PlayerScores)
                 {
                     TextBlock textBlock = new TextBlock
                     {
-                        Text = playerScore.ToString(),
+                        Text = player.ToString(),
                         // Set desired text style properties
                         FontSize = 20,
                         FontWeight = FontWeights.Bold,

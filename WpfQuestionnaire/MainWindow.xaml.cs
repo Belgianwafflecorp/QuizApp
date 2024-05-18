@@ -65,17 +65,15 @@ namespace WpfQuestionnaire
 
         private void ProcessScore(string username)
         {
-            // Assuming you have an instance of ScoreBoard in your MainWindow
             scoreboard.AddPlayer(username, correctAnswerCount);
             scoreboard.Save(); // Save the scoreboard data
         }
 
 
-
         private void ShowScoreboard()
         {
-            ScoreBoard scoreboardWindow = new ScoreBoard();
-            scoreboardWindow.Load();
+            scoreboard.Load();
+            scoreboard.SortScoreBoard();
         }
 
         public void ProcessQuestion(TriviaMultipleChoiceQuestion question)
@@ -135,13 +133,14 @@ namespace WpfQuestionnaire
 
             if (selectedAnswer == correctAnswer)
             {
-                MessageBox.Show("Correct!");
+                CustomMessageBox.Show("Correct!", "You got the correct answer!");
                 correctAnswerCount++;
             }
             else
             {
-                MessageBox.Show("Incorrect.");
+                CustomMessageBox.Show("Incorrect", "That's not the correct answer.");
             }
+
 
             questionCount++;
 
