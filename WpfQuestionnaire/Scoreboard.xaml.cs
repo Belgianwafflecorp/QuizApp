@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ScoreboardLibrary;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,21 +15,33 @@ using System.Windows.Shapes;
 
 namespace WpfQuestionnaire
 {
-    /// <summary>
-    /// Interaction logic for Scoreboard.xaml
-    /// </summary>
-    public partial class Scoreboard : Window
+    public partial class ScoreboardWindow : Window
     {
-        public Scoreboard()
+        public ScoreboardWindow(ScoreBoard scoreboard)
         {
             InitializeComponent();
+            DisplayScores(scoreboard);
         }
 
-        public void CloseApp_click(object sender, RoutedEventArgs e)
+        private void DisplayScores(ScoreBoard scoreboard)
         {
-            // Close the current window
-            this.Close();
+            scoreboard.SortScoreBoard();
+            foreach (var player in scoreboard.PlayerScores)
+            {
+                TextBlock playerScore = new TextBlock
+                {
+                    Text = $"{player.Player}: {player.Score} points",
+                    FontSize = 30,
+                    Foreground = new SolidColorBrush(Color.FromRgb(224, 226, 219)),
+                    Padding = new Thickness(40, 10, 40, 5)
+                };
+                scoreboardPanel.Children.Add(playerScore);
+            }
         }
 
+        private void CloseApp_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }

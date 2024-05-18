@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfQuestionnaire"
         mc:Ignorable="d"
-        Title="Enter Username" Height="180" Width="300"
+        Title="Enter Username" Height="250" Width="300"
         WindowStyle="None"
         ResizeMode="NoResize"
         AllowsTransparency="True"
         Background="Transparent"
         WindowStartupLocation="CenterScreen">
-    
+
     <Window.Resources>
         <LinearGradientBrush x:Key="BackgroundBrush" StartPoint="0,0" EndPoint="1,1">
             <GradientStop Offset="0" Color="#3D348B"/>
@@ -26,23 +26,22 @@
         <SolidColorBrush x:Key="ForegroundBrush" Color="#E0E2DB"/>
     </Window.Resources>
     <Grid Background="{StaticResource BackgroundBrush}">
-        <Label Content="Enter your username:" HorizontalAlignment="Center" Foreground="{StaticResource ForegroundBrush}"
-               FontSize="25" FontWeight="Bold" Margin="0 15 0 0"
-               />
-        
-        <TextBox x:Name="txtUsername" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200"/>
-        
-        <Button Content="Submit" HorizontalAlignment="Center" VerticalAlignment="Bottom" 
-                Margin="0,20,0,20" Click="Submit_Click"
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
+            <Label Content="Enter your username:" HorizontalAlignment="Center" Foreground="{StaticResource ForegroundBrush}"
+               FontSize="25" FontWeight="Bold"/>
+            <TextBlock x:Name="correctAnswersTextBlock" FontSize="16" Margin="10"/>
+            <TextBox x:Name="txtUsername" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Margin="0,10,0,10"/>
+            <Button Content="Submit" HorizontalAlignment="Center" VerticalAlignment="Center" 
+                Margin="0,20,0,0" Click="Submit_Click"
                 Background="#E6AF2E" Height="30" Width="100"
                 FontWeight="Bold" FontSize="15"
-                BorderBrush="{DynamicResource BorderBrush}" BorderThickness="2"
-        >
-            <Button.Resources>
-                <Style  TargetType="Border">
-                    <Setter Property="CornerRadius" Value="15" />
-                </Style>
-            </Button.Resources>
-        </Button>
+                BorderBrush="{DynamicResource BorderBrush}" BorderThickness="2">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="15"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </StackPanel>
     </Grid>
 </Window>

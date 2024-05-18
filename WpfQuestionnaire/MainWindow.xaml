@@ -27,7 +27,6 @@
 
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="200"/>
             </Grid.ColumnDefinitions>
 
             <Grid.RowDefinitions>
@@ -49,65 +48,54 @@
 
             <TextBlock x:Name="questionTextBlock"
                    Grid.Row="2" TextWrapping="Wrap" 
-                   Text="This is your question." 
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Center" 
                    FontSize="26" FontWeight="Bold"
                    Foreground="#E6AF2E"/>
 
-            <Image Grid.Row="2" Grid.Column="1" 
-                   x:Name="image"
-                   Source="path/to/your/image.jpg" 
-                   Width="200" Height="200" 
-                   />
-
-            <Button x:Name="AnswerA" Grid.Row="4" Grid.ColumnSpan="2" Content="Answer A" 
+            <Button x:Name="AnswerA" Grid.Row="4" Grid.ColumnSpan="2" 
                     Background="#E6AF2E" Height="50"
                     FontWeight="Bold" FontSize="26"
                     Margin="20" Click="HandleAnswerClick"
-                    BorderBrush="{DynamicResource BorderBrush}" BorderThickness="2"
-                    >
+                    BorderBrush="{DynamicResource BorderBrush}" BorderThickness="2">
                 <Button.Resources>
-                    <Style  TargetType="Border">
+                    <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="20" />
                     </Style>
                 </Button.Resources>
             </Button>
 
-            <Button x:Name="AnswerB" Grid.Row="5" Grid.ColumnSpan="2" Content="Answer B" 
+            <Button x:Name="AnswerB" Grid.Row="5" Grid.ColumnSpan="2" 
                     Background="#E6AF2E" Height="50"
                     FontWeight="Bold" FontSize="26"
                     Margin="20" Click="HandleAnswerClick"
-                    BorderBrush="{DynamicResource BorderBrush}" BorderThickness="2"
-                    >
+                    BorderBrush="{DynamicResource BorderBrush}" BorderThickness="2">
                 <Button.Resources>
-                    <Style      TargetType="Border">
+                    <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="20" />
                     </Style>
                 </Button.Resources>
             </Button>
 
-            <Button x:Name="AnswerC" Grid.Row="6" Grid.ColumnSpan="2" Content="Answer C" 
+            <Button x:Name="AnswerC" Grid.Row="6" Grid.ColumnSpan="2" 
                     Background="#E6AF2E" Height="50"
                     FontWeight="Bold" FontSize="26"
                     Margin="20" Click="HandleAnswerClick"
-                    BorderBrush="{DynamicResource BorderBrush}" BorderThickness="2"
-                    >
+                    BorderBrush="{DynamicResource BorderBrush}" BorderThickness="2">
                 <Button.Resources>
-                    <Style      TargetType="Border">
+                    <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="20" />
                     </Style>
                 </Button.Resources>
             </Button>
 
-            <Button x:Name="AnswerD" Grid.Row="7" Grid.ColumnSpan="2" Content="Answer D" 
+            <Button x:Name="AnswerD" Grid.Row="7" Grid.ColumnSpan="2" 
                     Background="#E6AF2E" Height="50"
                     FontWeight="Bold" FontSize="26"
                     Margin="20" Click="HandleAnswerClick"
-                    BorderBrush="{DynamicResource BorderBrush}" BorderThickness="2"
-                    >
+                    BorderBrush="{DynamicResource BorderBrush}" BorderThickness="2">
                 <Button.Resources>
-                    <Style      TargetType="Border">
+                    <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="20" />
                     </Style>
                 </Button.Resources>
@@ -117,17 +105,14 @@
                        HorizontalAlignment="Center" Margin="10" 
                        VerticalAlignment="Center"
                        Foreground="#E0E2DB"
-                       FontSize="15"
-                   >Questions Left:</TextBlock>
+                       FontSize="15">Questions Left:</TextBlock>
             <TextBox Grid.Row="10" Grid.ColumnSpan="2" VerticalAlignment="Center" 
                  FontSize="15"  
                  Text="Made by: Domien Verstraete" 
                  Foreground="#E0E2DB"
                  Background="Transparent"
                  BorderBrush="#E0E2DB"
-                 BorderThickness="0.2"
-                 />
-
+                 BorderThickness="0.2"/>
         </Grid>
     </Border>
 </Window>

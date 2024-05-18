@@ -17,29 +17,26 @@ namespace WpfQuestionnaire
 {
     public partial class UsernameInputWindow : Window
     {
-        private int correctAnswerCount;
-
         public string Username { get; private set; }
 
         public UsernameInputWindow(int correctAnswerCount)
         {
             InitializeComponent();
-            this.correctAnswerCount = correctAnswerCount;
+            correctAnswersTextBlock.Text = $"You answered {correctAnswerCount} questions correctly.";
         }
 
         private void Submit_Click(object sender, RoutedEventArgs e)
         {
-            Username = txtUsername.Text;
-
-            // Call the method in ScoreboardLibrary to add the username and score
-            ScoreboardLibrary.ScoreBoard scoreboard = new ScoreboardLibrary.ScoreBoard();
-            scoreboard.AddPlayer(Username, correctAnswerCount);
-
-            DialogResult = true;
-
-            // Close the UsernameInputWindow
-            Close();
+            if (!string.IsNullOrWhiteSpace(txtUsername.Text))
+            {
+                Username = txtUsername.Text;
+                DialogResult = true;
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Please enter a valid username.", "Invalid Input", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
         }
     }
 }
-

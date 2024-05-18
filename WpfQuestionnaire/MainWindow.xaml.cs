@@ -31,6 +31,7 @@ namespace WpfQuestionnaire
             correctAnswerCount = 0;
             questions = new List<TriviaMultipleChoiceQuestion>();
             scoreboard = new ScoreBoard();
+            scoreboard.Load();  // Load previous scores if any
             FetchRandomQuestion();
         }
 
@@ -38,12 +39,10 @@ namespace WpfQuestionnaire
         {
             if (questionCount < 10)
             {
-                questionCount++;
-                await TriviaApiRequester.RequestRandomQuestion(this);  
+                await TriviaApiRequester.RequestRandomQuestion(this);
             }
             else
             {
-                MessageBox.Show("All questions fetched. Calculating score...");
                 ShowUsernameInputDialog();
             }
         }
@@ -51,28 +50,29 @@ namespace WpfQuestionnaire
         private void ShowUsernameInputDialog()
         {
             UsernameInputWindow usernameWindow = new UsernameInputWindow(correctAnswerCount);
-            usernameWindow.ShowDialog();
+            if (usernameWindow.ShowDialog() == true)
+            {
+                string username = usernameWindow.Username;
+                scoreboard.AddPlayer(username, correctAnswerCount);
+                scoreboard.Save();
+                ShowScoreboard();
+            }
             this.Close();
+        }
+
+        private void ShowScoreboard()
+        {
+            ScoreboardWindow scoreboardWindow = new ScoreboardWindow(scoreboard);
+            scoreboardWindow.Show();
         }
 
         public void ProcessQuestion(TriviaMultipleChoiceQuestion question)
         {
             if (question != null)
-            { 
+            {
                 questions.Add(question);
-                questionCount++;
-                if (questionCount <= 10)
+                if (questions.Count == 1) // Present the first question immediately
                 {
-                    questionTextBlock.Text = FetchRandomQuestion();
-                }
-                else if (questionCount >= 10)
-                {
-                    // open username input
-                    ShowUsernameInputDialog();
-                }
-                else
-                {
-                    // Start presenting questions to the user
                     PresentQuestion();
                 }
             }
@@ -82,18 +82,32 @@ namespace WpfQuestionnaire
             }
         }
 
-
         private void PresentQuestion()
         {
-            // Present the first question to the user
             if (questions.Count > 0)
             {
                 currentQuestion = questions[0];
-                ProcessQuestion(currentQuestion);
                 questions.RemoveAt(0);
+
+                questionTextBlock.Text = currentQuestion.Question.Text;
+                List<string> allAnswers = new List<string>(currentQuestion.IncorrectAnswers)
+                {
+                    currentQuestion.CorrectAnswer
+                };
+                allAnswers = ShuffleAnswers(allAnswers);
+
+                AnswerA.Content = allAnswers[0];
+                AnswerB.Content = allAnswers[1];
+                AnswerC.Content = allAnswers[2];
+                AnswerD.Content = allAnswers[3];
             }
         }
 
+        private List<string> ShuffleAnswers(List<string> answers)
+        {
+            Random rnd = new Random();
+            return answers.OrderBy(a => rnd.Next()).ToList();
+        }
 
         private void HandleAnswerClick(object sender, RoutedEventArgs e)
         {
@@ -106,17 +120,19 @@ namespace WpfQuestionnaire
                 MessageBox.Show("Correct!");
                 correctAnswerCount++;
             }
-
             else
             {
                 MessageBox.Show("Incorrect.");
             }
 
-
-            // Present the next question
-            PresentQuestion();
-
+            if (questionCount < 10)
+            {
+                FetchRandomQuestion();
+            }
+            else
+            {
+                ShowUsernameInputDialog();
+            }
         }
-
     }
 }
