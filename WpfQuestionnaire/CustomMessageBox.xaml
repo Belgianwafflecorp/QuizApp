@@ -5,9 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfQuestionnaire"
         mc:Ignorable="d"
-        Title="Message" Height="170" Width="220" 
-        WindowStartupLocation="CenterScreen" 
-        ResizeMode="NoResize" WindowStyle="ToolWindow"
+        Title="Message" Height="130" Width="300" WindowStartupLocation="CenterScreen"
+        WindowStyle="None" ResizeMode="NoResize"
         Background="{DynamicResource BackgroundBrush}">
     <Window.Resources>
         <LinearGradientBrush x:Key="BackgroundBrush">

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TriviaApiLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bc31db9705183d993f2b433a471d23b23e5125c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b664be82f7a571fcbe88600b3ffcdc0bcc173391")]
 [assembly: System.Reflection.AssemblyProductAttribute("TriviaApiLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TriviaApiLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
