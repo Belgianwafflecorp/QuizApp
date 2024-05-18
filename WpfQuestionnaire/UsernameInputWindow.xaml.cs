@@ -29,14 +29,25 @@ namespace WpfQuestionnaire
 
         private void Submit_Click(object sender, RoutedEventArgs e)
         {
+            // Check if the username is not null, empty, or whitespace
             if (!string.IsNullOrWhiteSpace(txtUsername.Text))
             {
-                Username = txtUsername.Text;
-                DialogResult = true;
-                this.Close();
+                // Check if the length of the username is within the allowed limit (20 characters)
+                if (txtUsername.Text.Length <= 25)
+                {
+                    Username = txtUsername.Text;
+                    DialogResult = true;
+                    this.Close();
+                }
+                else
+                {
+                    // Show an error message if the username exceeds the maximum length
+                    MessageBox.Show("Username cannot exceed 25 characters.", "Invalid Input", MessageBoxButton.OK, MessageBoxImage.Warning);
+                }
             }
             else
             {
+                // Show an error message if the username is empty
                 MessageBox.Show("Please enter a valid username.", "Invalid Input", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
         }

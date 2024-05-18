@@ -30,10 +30,12 @@
             Scoreboard
         </Label>
 
-        <Border CornerRadius="40" Background="Transparent" 
+        <Border CornerRadius="40" Background="#6669" 
                 BorderBrush="Transparent" Grid.Row="1"
                 Margin="40 0 40 0">
-            <StackPanel x:Name="scoreboardPanel"/>
+
+            <StackPanel x:Name="scoreboardPanel" HorizontalAlignment="Center"/>
+            
         </Border>
 
         <Button x:Name="CloseApp" Grid.Row="2" Grid.ColumnSpan="2" 

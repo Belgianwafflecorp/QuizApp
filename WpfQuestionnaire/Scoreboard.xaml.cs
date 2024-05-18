@@ -17,31 +17,48 @@ namespace WpfQuestionnaire
 {
     public partial class ScoreboardWindow : Window
     {
-        public ScoreboardWindow(ScoreBoard scoreboard)
+        private ScoreboardLibrary.ScoreBoard scoreboard;
+
+        public ScoreboardWindow()
         {
             InitializeComponent();
-            DisplayScores(scoreboard);
+            scoreboard = new ScoreboardLibrary.ScoreBoard();
+            LoadScoreboard();
         }
 
-        private void DisplayScores(ScoreBoard scoreboard)
+        private void LoadScoreboard()
         {
-            scoreboard.SortScoreBoard();
-            foreach (var player in scoreboard.PlayerScores)
+            try
             {
-                TextBlock playerScore = new TextBlock
+                scoreboard.Load();
+                // Bind scoreboard data to UI controls here
+                scoreboardPanel.Children.Clear();
+                foreach (var playerScore in scoreboard.PlayerScores)
                 {
-                    Text = $"{player.Player}: {player.Score} points",
-                    FontSize = 30,
-                    Foreground = new SolidColorBrush(Color.FromRgb(224, 226, 219)),
-                    Padding = new Thickness(40, 10, 40, 5)
-                };
-                scoreboardPanel.Children.Add(playerScore);
+                    TextBlock textBlock = new TextBlock
+                    {
+                        Text = playerScore.ToString(),
+                        // Set desired text style properties
+                        FontSize = 20,
+                        FontWeight = FontWeights.Bold,
+                        Foreground = Brushes.White,
+                        Margin = new Thickness(0, 30, 0, 0) // Add a top margin of 30
+                    };
+                    scoreboardPanel.Children.Add(textBlock);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Failed to load scoreboard: {ex.Message}");
             }
         }
 
+
         private void CloseApp_Click(object sender, RoutedEventArgs e)
         {
+            // Close the application
             Application.Current.Shutdown();
         }
+
     }
 }

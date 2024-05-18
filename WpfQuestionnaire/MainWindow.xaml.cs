@@ -53,12 +53,24 @@ namespace WpfQuestionnaire
             if (usernameWindow.ShowDialog() == true)
             {
                 string username = usernameWindow.Username;
-                scoreboard.AddPlayer(username, correctAnswerCount);
-                scoreboard.Save();
-                ShowScoreboard();
+                ProcessScore(username);
+
+                
+
+                // Display the scoreboard window
+                ScoreboardWindow scoreboardWindow = new();
+                scoreboardWindow.Show();
             }
-            this.Close();
         }
+
+        private void ProcessScore(string username)
+        {
+            // Assuming you have an instance of ScoreBoard in your MainWindow
+            scoreboard.AddPlayer(username, correctAnswerCount);
+            scoreboard.Save(); // Save the scoreboard data
+        }
+
+
 
         private void ShowScoreboard()
         {
