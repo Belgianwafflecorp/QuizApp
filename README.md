@@ -1,9 +1,31 @@
 # QuizApp
 
-Project description: a short description of the whole solution and the different projects in the solution
-• Author: Your name
-• Screenshots: a couple of screenshots of the application
-• Setup and Usage: short description of what applications and tools are required to use the app (Visual
+## Project description: 
+A Multiple Choice Quiz app made in C# with wpf GUI.
+The questions are fetched with API's from https://the-trivia-api.com/.
+There is also an console app version (ConsoleQuizApp).
+
+
+## Author:
+Verstraete Domien
+ICT-electronics student at Vives Brugge
+
+
+## Screenshots: 
+
+
+## Setup and Usage: 
+short description of what applications and tools are required to use the app (Visual
 Studio, ...)
-• UML Class diagrams of the classes in the library
-• Future Improvements: explain the things that do not work or what could be done better
+
+
+## UML Class diagrams of the classes in the library
+
+
+## Future Improvements: 
+- login for returing users
+- keeping track of the time users take to finish the quiz
+- being able to see the scoreboard in the beginning of the app
+- adding question photos
+- adding the option to choose a topic for the questions
+- Lan party versus battle

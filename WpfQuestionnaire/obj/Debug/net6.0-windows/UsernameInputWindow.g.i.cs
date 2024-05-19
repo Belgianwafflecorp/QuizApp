@@ -69,7 +69,7 @@ namespace WpfQuestionnaire {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfQuestionnaire;V1.0.0.0;component/usernameinputwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfQuestionnaire;component/usernameinputwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\UsernameInputWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

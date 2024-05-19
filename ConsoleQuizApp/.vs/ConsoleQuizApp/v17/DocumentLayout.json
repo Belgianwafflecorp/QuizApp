@@ -16,10 +16,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE68D2C5-02DF-4758-8F39-09D48D5D5054}|..\\WpfQuestionnaire\\WpfQuestionnaire.csproj|c:\\users\\admin\\desktop\\github repos\\csharp\\quizapp\\wpfquestionnaire\\scoreboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4DA632A-4F10-4F72-97C6-1BCA5273A7E8}|ConsoleQuizApp.csproj|c:\\users\\admin\\desktop\\github repos\\csharp\\quizapp\\consolequizapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4DA632A-4F10-4F72-97C6-1BCA5273A7E8}|ConsoleQuizApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,8 +37,7 @@
               "RelativeToolTip": "..\\WpfQuestionnaire\\Scoreboard.xaml.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAwwD8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T18:47:24.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T18:47:24.193Z"
             },
             {
               "$type": "Document",
@@ -54,8 +49,7 @@
               "RelativeToolTip": "..\\WpfQuestionnaire\\UsernameInputWindow.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T18:45:11.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T18:45:11.103Z"
             },
             {
               "$type": "Document",
@@ -67,8 +61,7 @@
               "RelativeToolTip": "..\\WpfQuestionnaire\\CustomMessageBox.xaml.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAkwBwAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T18:19:34.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T18:19:34.654Z"
             },
             {
               "$type": "Document",
@@ -79,8 +72,7 @@
               "ToolTip": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\WpfQuestionnaire\\CustomMessageBox.xaml",
               "RelativeToolTip": "..\\WpfQuestionnaire\\CustomMessageBox.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-18T18:16:43.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T18:16:43.764Z"
             },
             {
               "$type": "Document",
@@ -90,43 +82,9 @@
               "RelativeDocumentMoniker": "..\\WpfQuestionnaire\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\WpfQuestionnaire\\MainWindow.xaml.cs",
               "RelativeToolTip": "..\\WpfQuestionnaire\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAIIAAAAAAAAAAAAiwIYAAAANAAAA",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAwwIwAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-18T17:49:39.218Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "e5acc3ec-b597-405d-8b22-3c36128038d7",
-        "Display": 1,
-        "X": -4,
-        "Y": 4,
-        "Width": 1089,
-        "Height": 1283,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ConsoleQuizApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ConsoleQuizApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAIwBgAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T17:45:59.433Z",
               "EditorCaption": ""
             }
           ]

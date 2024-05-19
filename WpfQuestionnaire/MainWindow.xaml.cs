@@ -138,8 +138,9 @@ namespace WpfQuestionnaire
             }
             else
             {
-                CustomMessageBox.Show("Incorrect", "That's not the correct answer.");
+                CustomMessageBox.Show("Incorrect", "The right answer is: \n" + correctAnswer);
             }
+
 
 
             questionCount++;
