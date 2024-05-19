@@ -12,17 +12,18 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using ScoreboardLibrary;
 
 namespace WpfQuestionnaire
 {
     public partial class ScoreboardWindow : Window
     {
-        private ScoreboardLibrary.ScoreBoard scoreboard;
+        private ScoreBoard scoreboard;
 
-        public ScoreboardWindow()
+        public ScoreboardWindow(ScoreBoard scoreboard)
         {
             InitializeComponent();
-            scoreboard = new ScoreboardLibrary.ScoreBoard();
+            this.scoreboard = scoreboard;
             LoadScoreboard();
         }
 
@@ -42,7 +43,7 @@ namespace WpfQuestionnaire
                         FontSize = 20,
                         FontWeight = FontWeights.Bold,
                         Foreground = Brushes.White,
-                        Margin = new Thickness(0, 30, 0, 0) // Add a top margin of 30
+                        Margin = new Thickness(0, 20, 0, 0) // top margin of 30
                     };
                     scoreboardPanel.Children.Add(textBlock);
                 }
@@ -53,12 +54,10 @@ namespace WpfQuestionnaire
             }
         }
 
-
         private void CloseApp_Click(object sender, RoutedEventArgs e)
         {
             // Close the application
             Application.Current.Shutdown();
         }
-
     }
 }

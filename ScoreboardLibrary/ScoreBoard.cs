@@ -12,24 +12,34 @@ namespace ScoreboardLibrary
 {
     public class ScoreBoard
     {
-
         private readonly List<PlayerScore> scoreList = new();
         private readonly string saveFile = "scoreboard.json";
 
         public List<PlayerScore> PlayerScores { get { return scoreList; } }
 
-        public ScoreBoard() { }
+        public ScoreBoard()
+        {
+            Load(); // Ensure scores are loaded on initialization
+        }
 
-        public ScoreBoard(string saveFile) { this.saveFile = saveFile; }
+        public ScoreBoard(string saveFile)
+        {
+            this.saveFile = saveFile;
+            Load(); // Ensure scores are loaded on initialization
+        }
 
         public void AddPlayer(PlayerScore player)
         {
             scoreList.Add(player);
+            SortScoreBoard(); // Sort the scoreboard after adding a new player
+            Save(); // Save the scoreboard after adding a new player
         }
 
         public void AddPlayer(string player, int score)
         {
             scoreList.Add(new PlayerScore(player, score));
+            SortScoreBoard(); // Sort the scoreboard after adding a new player
+            Save(); // Save the scoreboard after adding a new player
         }
 
         public void SortScoreBoard()
@@ -62,23 +72,31 @@ namespace ScoreboardLibrary
             {
                 using StreamReader reader = new(saveFile);
                 string json = reader.ReadToEnd();
-                scoreList.AddRange(JsonSerializer.Deserialize<List<PlayerScore>>(json));
+                var loadedScores = JsonSerializer.Deserialize<List<PlayerScore>>(json);
+                if (loadedScores != null)
+                {
+                    scoreList.AddRange(loadedScores);
+                }
             }
             return scoreList;
         }
 
         public void Save()
         {
-            DeleteSaveFile();
             using StreamWriter writer = new(saveFile);
             writer.Write(JsonSerializer.Serialize(scoreList));
         }
 
         public override string ToString()
         {
-            return $"Scoreboard: {string.Join(", ", scoreList)}";
+            var builder = new StringBuilder();
+            builder.AppendLine("Player     |     Score / 10");
+            builder.AppendLine("---------------------------------");
+            foreach (var playerScore in scoreList)
+            {
+                builder.AppendLine(playerScore.ToString());
+            }
+            return builder.ToString();
         }
-
-
     }
 }

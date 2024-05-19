@@ -31,7 +31,11 @@ namespace WpfQuestionnaire
             questionCount = 0;
             correctAnswerCount = 0;
             questions = new List<TriviaMultipleChoiceQuestion>();
+
+            // Initialize and load the scoreboard
             scoreboard = new ScoreBoard();
+            scoreboard.Load(); // Load existing scores
+
             FetchRandomQuestion();
         }
 
@@ -55,20 +59,18 @@ namespace WpfQuestionnaire
                 string username = usernameWindow.Username;
                 ProcessScore(username);
 
-                
-
-                // Display the scoreboard window
-                ScoreboardWindow scoreboardWindow = new();
+                // Display the scoreboard window with the existing scoreboard instance
+                ScoreboardWindow scoreboardWindow = new ScoreboardWindow(scoreboard);
                 scoreboardWindow.Show();
             }
         }
+
 
         private void ProcessScore(string username)
         {
             scoreboard.AddPlayer(username, correctAnswerCount);
             scoreboard.Save(); // Save the scoreboard data
         }
-
 
         private void ShowScoreboard()
         {
@@ -101,14 +103,14 @@ namespace WpfQuestionnaire
                 questions.RemoveAt(0);
 
                 // Update the questions_left TextBlock
-                questions_left.Text = $"Question: {questionCount + 1}/{10}";
+                questions_left.Text = $"Question: {questionCount + 1}/10";
 
                 // Update the questionTextBlock and answer buttons
                 questionTextBlock.Text = currentQuestion.Question.Text;
                 List<string> allAnswers = new List<string>(currentQuestion.IncorrectAnswers)
-        {
-            currentQuestion.CorrectAnswer
-        };
+                {
+                    currentQuestion.CorrectAnswer
+                };
                 allAnswers = ShuffleAnswers(allAnswers);
 
                 AnswerA.Content = allAnswers[0];
@@ -117,7 +119,6 @@ namespace WpfQuestionnaire
                 AnswerD.Content = allAnswers[3];
             }
         }
-
 
         private List<string> ShuffleAnswers(List<string> answers)
         {
@@ -140,8 +141,6 @@ namespace WpfQuestionnaire
             {
                 CustomMessageBox.Show("Incorrect", "The right answer is: \n" + correctAnswer);
             }
-
-
 
             questionCount++;
 

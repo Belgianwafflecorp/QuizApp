@@ -68,7 +68,7 @@ namespace WpfQuestionnaire {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfQuestionnaire;V1.0.0.0;component/scoreboard.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfQuestionnaire;component/scoreboard.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Scoreboard.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
