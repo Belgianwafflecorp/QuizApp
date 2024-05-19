@@ -3,22 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ConsoleQuizApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE68D2C5-02DF-4758-8F39-09D48D5D5054}|..\\WpfQuestionnaire\\WpfQuestionnaire.csproj|c:\\users\\admin\\desktop\\github repos\\csharp\\quizapp\\wpfquestionnaire\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE68D2C5-02DF-4758-8F39-09D48D5D5054}|..\\WpfQuestionnaire\\WpfQuestionnaire.csproj|c:\\users\\admin\\desktop\\github repos\\csharp\\quizapp\\wpfquestionnaire\\usernameinputwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE68D2C5-02DF-4758-8F39-09D48D5D5054}|..\\WpfQuestionnaire\\WpfQuestionnaire.csproj|c:\\users\\admin\\desktop\\github repos\\csharp\\quizapp\\wpfquestionnaire\\scoreboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C29DE38E-ADBE-419C-82C6-C47C139C1B6C}|..\\ScoreboardLibrary\\ScoreboardLibrary.csproj|c:\\users\\admin\\desktop\\github repos\\csharp\\quizapp\\scoreboardlibrary\\scoreboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE68D2C5-02DF-4758-8F39-09D48D5D5054}|..\\WpfQuestionnaire\\WpfQuestionnaire.csproj|c:\\users\\admin\\desktop\\github repos\\csharp\\quizapp\\wpfquestionnaire\\custommessagebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C29DE38E-ADBE-419C-82C6-C47C139C1B6C}|..\\ScoreboardLibrary\\ScoreboardLibrary.csproj|c:\\users\\admin\\desktop\\github repos\\csharp\\quizapp\\scoreboardlibrary\\playerscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE68D2C5-02DF-4758-8F39-09D48D5D5054}|..\\WpfQuestionnaire\\WpfQuestionnaire.csproj|c:\\users\\admin\\desktop\\github repos\\csharp\\quizapp\\wpfquestionnaire\\custommessagebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C29DE38E-ADBE-419C-82C6-C47C139C1B6C}|..\\ScoreboardLibrary\\ScoreboardLibrary.csproj|c:\\users\\admin\\desktop\\github repos\\csharp\\quizapp\\scoreboardlibrary\\scoreboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE68D2C5-02DF-4758-8F39-09D48D5D5054}|..\\WpfQuestionnaire\\WpfQuestionnaire.csproj|c:\\users\\admin\\desktop\\github repos\\csharp\\quizapp\\wpfquestionnaire\\scoreboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE68D2C5-02DF-4758-8F39-09D48D5D5054}|..\\WpfQuestionnaire\\WpfQuestionnaire.csproj|c:\\users\\admin\\desktop\\github repos\\csharp\\quizapp\\wpfquestionnaire\\usernameinputwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE68D2C5-02DF-4758-8F39-09D48D5D5054}|..\\WpfQuestionnaire\\WpfQuestionnaire.csproj|c:\\users\\admin\\desktop\\github repos\\csharp\\quizapp\\wpfquestionnaire\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,11 +28,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "CustomMessageBox.xaml",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\WpfQuestionnaire\\CustomMessageBox.xaml",
               "RelativeDocumentMoniker": "..\\WpfQuestionnaire\\CustomMessageBox.xaml",
@@ -44,7 +44,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "PlayerScore.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ScoreboardLibrary\\PlayerScore.cs",
               "RelativeDocumentMoniker": "..\\ScoreboardLibrary\\PlayerScore.cs",
@@ -57,7 +57,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ScoreBoard.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\ScoreboardLibrary\\ScoreBoard.cs",
               "RelativeDocumentMoniker": "..\\ScoreboardLibrary\\ScoreBoard.cs",
@@ -70,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Scoreboard.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\WpfQuestionnaire\\Scoreboard.xaml.cs",
               "RelativeDocumentMoniker": "..\\WpfQuestionnaire\\Scoreboard.xaml.cs",
@@ -83,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "UsernameInputWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\WpfQuestionnaire\\UsernameInputWindow.xaml.cs",
               "RelativeDocumentMoniker": "..\\WpfQuestionnaire\\UsernameInputWindow.xaml.cs",
@@ -96,13 +96,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\WpfQuestionnaire\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "..\\WpfQuestionnaire\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\ADMIN\\Desktop\\github repos\\Csharp\\QuizApp\\WpfQuestionnaire\\MainWindow.xaml.cs",
               "RelativeToolTip": "..\\WpfQuestionnaire\\MainWindow.xaml.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAywEIAAAAAAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAADwv0IAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-18T17:49:39.218Z",
               "EditorCaption": ""
