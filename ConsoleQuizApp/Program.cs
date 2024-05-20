@@ -8,17 +8,14 @@ namespace ConsoleQuizApp
 {
     internal class Program
     {
-        
-        
         private static readonly int numberOfQuestions = 10;
         private static List<Question> questions = new();
         private static List<Answer> guesses = new();
 
         private class QuestionHandler : IQuestionHandler
         {
-            void IQuestionHandler.ProcessQuestion(TriviaMultipleChoiceQuestion question)
+            public void ProcessQuestion(TriviaMultipleChoiceQuestion question)
             {
-                // Convert the trivia question to your Question class
                 Question newQuestion = new(question.Question.Text);
                 newQuestion.Add(new Answer(question.CorrectAnswer, true));
                 foreach (string incorrectAnswer in question.IncorrectAnswers)
@@ -32,47 +29,39 @@ namespace ConsoleQuizApp
         static void WelcomeMessage()
         {
             Console.Title = "Quiz App";
-            Console.WriteLine("Welcome to the Trivia Challenge!");
+            Console.WriteLine("Welcome to the QUIZ APP!");
             Console.WriteLine("You will be presented with 10 questions.");
-            Console.WriteLine("Can you score 100%?");
-            Console.WriteLine();
+            Console.WriteLine("To answer type a, b, c or d and press enter.");
+            Console.WriteLine("Will you be able to conquer the leaderboard?\n");
         }
+
         static async Task Main(string[] args)
         {
             WelcomeMessage();
 
             IQuestionHandler handler = new QuestionHandler();
 
-            // Array to store the tasks
             Task[] tasks = new Task[numberOfQuestions];
             for (int i = 0; i < numberOfQuestions; i++)
             {
-                tasks[i] = Task.Run(async () =>
-                {
-                    await TriviaApiRequester.RequestRandomQuestion(handler);
-                });
+                tasks[i] = TriviaApiRequester.RequestRandomQuestion(handler);
             }
-            // Wait for all tasks to complete
             await Task.WhenAll(tasks);
 
-            // Prompt the user with the questions
             foreach (Question question in questions)
             {
                 PromptQuestion(question, guesses);
             }
 
-            // Display the results
-            Console.WriteLine();
-            Console.WriteLine("You have completed the questionnaire.");
-            int score = questions.Count(question => question.Answers.All(answer => answer.IsCorrect == guesses.Contains(answer)));
-            Console.WriteLine($"You scored {score} out of {questions.Count}.");
-            Console.WriteLine();
-            Console.Write($"Enter your name: ");
+            Console.WriteLine("\nYou have answered all questions.");
+            int score = questions.Count(q => q.Answers.Any(a => a.IsCorrect && guesses.Contains(a)));
+            Console.WriteLine($"You have {score} out of {questions.Count} right.\n");
+            Console.Write("Enter your name: ");
             string? name = Console.ReadLine();
 
             if (string.IsNullOrWhiteSpace(name))
             {
-                Console.WriteLine("You must enter a name to save your score.");
+                Console.WriteLine("Without a name you can't save your score.");
                 Console.WriteLine("Goodbye.");
                 return;
             }
@@ -83,9 +72,8 @@ namespace ConsoleQuizApp
             scoreboard.SortScoreBoard();
             scoreboard.Save();
 
-            Console.WriteLine($"Thank you, {name}. Your score has been added to the scoreboard.");
+            Console.WriteLine($"Very well, {name}. You have been added to the scoreboard.\n");
 
-            Console.WriteLine();
             Console.WriteLine("Scoreboard:");
             foreach (PlayerScore player in scoreboard.PlayerScores)
             {
@@ -95,80 +83,43 @@ namespace ConsoleQuizApp
 
         static void PromptQuestion(Question question, List<Answer> guesses)
         {
-            // Hide the cursor
-            Console.CursorVisible = false;
-
-            // Display the question
+            Console.WriteLine();
             DisplayQuestion(question);
 
-            // Display the answers and highlight the first one
-            int currentAnswerIndex = 0;
-            DisplayAnswers(question, currentAnswerIndex);
+            List<int> shuffledIndices = Enumerable.Range(0, question.Answers.Count).OrderBy(x => Guid.NewGuid()).ToList();
 
-            // Save the current line
-            int answerLine = Console.CursorTop - 1;
-
-            bool running = true;
-            while (running)
+            for (int i = 0; i < shuffledIndices.Count; i++)
             {
-                // Read a key
-                ConsoleKeyInfo key = Console.ReadKey(true);
-
-                switch (key.Key)
-                {
-                    case ConsoleKey.A:
-                    case ConsoleKey.Q:
-                    case ConsoleKey.Z:
-                    case ConsoleKey.UpArrow:
-                    case ConsoleKey.LeftArrow:
-                        currentAnswerIndex = Math.Max(0, currentAnswerIndex - 1);
-                        break;
-                    case ConsoleKey.D:
-                    case ConsoleKey.S:
-                    case ConsoleKey.DownArrow:
-                    case ConsoleKey.RightArrow:
-                        currentAnswerIndex = Math.Min(question.Answers.Count - 1, currentAnswerIndex + 1);
-                        break;
-                    case ConsoleKey.Spacebar:
-                    case ConsoleKey.Enter:
-                        Answer answer = question.GetAnswer(currentAnswerIndex);
-                        guesses.Add(answer);
-                        running = false;
-                        continue;
-                }
-
-                // Redisplay the answers
-                Console.SetCursorPosition(0, answerLine);
-                DisplayAnswers(question, currentAnswerIndex);
+                int index = shuffledIndices[i];
+                Console.WriteLine($"{(char)('a' + i)}. {question.GetAnswer(index).Text}");
             }
 
-            // Show the cursor
-            Console.CursorVisible = true;
+            string userAnswer = Console.ReadLine()?.Trim().ToLower();
+            int answerIndex = userAnswer switch
+            {
+                "a" => shuffledIndices[0],
+                "b" => shuffledIndices[1],
+                "c" => shuffledIndices[2],
+                "d" => shuffledIndices[3],
+                _ => -1
+            };
+
+            if (answerIndex >= 0 && answerIndex < question.Answers.Count)
+            {
+                guesses.Add(question.GetAnswer(answerIndex));
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Please enter a, b, c, or d.");
+                PromptQuestion(question, guesses);
+            }
         }
 
         static void DisplayQuestion(Question question)
         {
-            Console.ForegroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine(question.Text);
             Console.ResetColor();
         }
-
-        static void DisplayAnswers(Question question, int highlightedIndex)
-        {
-            for (int i = 0; i < question.Answers.Count; i++)
-            {
-                if (i == highlightedIndex)
-                {
-                    Console.ForegroundColor = ConsoleColor.Blue;
-                }
-
-                Console.Write($"{(char)('a' + i)}. ");
-                Console.Write(question.GetAnswer(i).Text);
-                Console.ResetColor();
-                Console.Write("  ");
-            }
-            Console.WriteLine();
-        }
-    
     }
 }
