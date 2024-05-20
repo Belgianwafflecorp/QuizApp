@@ -24,6 +24,12 @@ namespace WpfQuestionnaire
             InitializeComponent();
         }
 
+        private void AboutButton_Click(object sender, RoutedEventArgs e)
+        {
+            AboutWindow aboutWindow = new AboutWindow();
+            aboutWindow.ShowDialog(); // Show the About window as a modal dialog
+        }
+
         private void StartQuiz_Click(object sender, RoutedEventArgs e)
         {
             // Open the Main Window

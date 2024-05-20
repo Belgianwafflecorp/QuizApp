@@ -70,7 +70,15 @@
 
             </StackPanel>
         </Border>
-        
+
+        <Button Grid.Row="3"
+                Content="About" 
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center" 
+                Margin="0,0,10,10" 
+                Width="75"
+                Click="AboutButton_Click"/>
+
 
         <Button x:Name="StartQuiz" Grid.Row="4" Grid.ColumnSpan="2" Content="Start" 
                 Background="#E6AF2E" Height="auto"

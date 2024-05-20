@@ -1,0 +1,72 @@
+﻿<Window x:Class="WpfQuestionnaire.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfQuestionnaire"
+        mc:Ignorable="d"
+        Title="About" Height="450" Width="600"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Background="{DynamicResource BackgroundBrush}">
+    
+    <Window.Resources>
+        <LinearGradientBrush x:Key="BackgroundBrush">
+            <GradientStop Offset="0" Color="#3D348B"/>
+            <GradientStop Offset="1.2" Color="#000000"/>
+        </LinearGradientBrush>
+
+        <LinearGradientBrush x:Key="BorderBrush">
+            <GradientStop Offset="0" Color="#FFFF"/>
+            <GradientStop Offset="0.5" Color="#000000"/>
+        </LinearGradientBrush>
+    </Window.Resources>
+
+    <Grid>
+        <TextBlock Text="About This Application" 
+                   FontSize="30"
+                   Foreground="#FFFF"
+                   FontWeight="Bold" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Top" 
+                   Margin="0,20,0,0"/>
+
+        <TextBlock TextWrapping="Wrap" Margin="20" FontSize="12" VerticalAlignment="Center"
+                   Foreground="#FFFF">
+            <Run Text="Welcome to the Quiz App, a school assignment developed by "/>
+            <Run FontWeight="Bold" Text="Domien Verstraete"/>
+            <Run Text=", a student at Vives Brugge. This application is a culmination of everything we have learned about Object-Oriented Programming (OOP) in the first year of the ICT-Electronics program."/>
+            <LineBreak/>
+            <LineBreak/>
+            <Run Text="The Quiz App allows users to test their knowledge with a series of multiple-choice questions fetched from a trivia API. It features a dynamic interface and a scoreboard that tracks and saves players' scores. This project showcases various programming concepts and techniques, including:"/>
+            <LineBreak/>
+            <LineBreak/>
+            <Run Text="• Encapsulation: Organizing code into classes and managing access to data."/>
+            <LineBreak/>
+            <Run Text="• Inheritance: Building on existing classes to extend functionality."/>
+            <LineBreak/>
+            <Run Text="• Polymorphism: Designing flexible and reusable code."/>
+            <LineBreak/>
+            <Run Text="• Serialization: Saving and loading data to and from files."/>
+            <LineBreak/>
+            <Run Text="• Asynchronous Programming: Making API requests without freezing the user interface."/>
+            <LineBreak/>
+            <LineBreak/>
+            <Run Text="Feel free to explore the code and contribute to its improvement. You can find the source code and more projects on my GitHub profile: "/>
+            <Hyperlink NavigateUri="https://github.com/Belgianwafflecorp" RequestNavigate="Hyperlink_RequestNavigate"
+                       TextDecorations="None" Foreground="#E6AF2E" FontSize="11">
+                GitHub
+            </Hyperlink>
+            <LineBreak/>
+            <LineBreak/>
+            <Run Text="Thank you for using the Quiz App, and I hope you enjoy the experience!"/>
+        </TextBlock>
+
+        <Button Content="Close" 
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Bottom" 
+                Margin="0,0,0,20" 
+                Width="100" 
+                Click="CloseButton_Click"/>
+    </Grid>
+</Window>
