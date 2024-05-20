@@ -89,14 +89,7 @@ namespace ScoreboardLibrary
 
         public override string ToString()
         {
-            var builder = new StringBuilder();
-            builder.AppendLine("Player     |     Score / 10");
-            builder.AppendLine("---------------------------------");
-            foreach (var playerScore in scoreList)
-            {
-                builder.AppendLine(playerScore.ToString());
-            }
-            return builder.ToString();
+            return $"Scoreboard: {string.Join(", ", scoreList)}";
         }
     }
 }
