@@ -1,0 +1,11 @@
+C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Release\net6.0-windows\win-x86\WpfQuestionnaire.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Release\net6.0-windows\win-x86\Scoreboard.baml
+C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Release\net6.0-windows\win-x86\AboutWindow.g.cs
+C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Release\net6.0-windows\win-x86\CustomMessageBox.g.cs
+C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Release\net6.0-windows\win-x86\MainWindow.g.cs
+C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Release\net6.0-windows\win-x86\Scoreboard.g.cs
+C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Release\net6.0-windows\win-x86\Start.g.cs
+C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Release\net6.0-windows\win-x86\UsernameInputWindow.g.cs
+C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Release\net6.0-windows\win-x86\App.g.cs
+C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Release\net6.0-windows\win-x86\WpfQuestionnaire_MarkupCompile.cache
+C:\Users\ADMIN\Desktop\github repos\Csharp\QuizApp\WpfQuestionnaire\obj\Release\net6.0-windows\win-x86\WpfQuestionnaire_MarkupCompile.lref
